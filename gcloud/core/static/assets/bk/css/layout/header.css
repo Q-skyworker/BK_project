@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/*===================================================*\ 
+ * * * king-content-header 正文头部
+\*===================================================*/
+.king-content-header {
+  position: relative;
+  padding: 15px 15px 0 15px;
+}
+
+.king-content-header.king-info-header h1 {
+  padding-left: 15px;
+  border-left: 3px solid #4A9BFF;
+}
+
+.king-content-header.king-info-header {
+  overflow: hidden;
+  background: #fff;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.king-content-header.king-info-header > .breadcrumb {
+  top: 0;
+}
+
+.king-content-header > h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.king-content-header > h1 > small {
+  font-size: 15px;
+  display: inline-block;
+  padding-left: 4px;
+  font-weight: 300;
+}
+
+.king-content-header > .breadcrumb {
+  float: right;
+  background: transparent;
+  margin-top: 0px;
+  margin-bottom: 0;
+  font-size: 12px;
+  padding: 7px 5px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  border-radius: 2px;
+}
+
+.king-content-header > .breadcrumb > li > a {
+  color: #444;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.king-content-header > .breadcrumb > li > a > .fa, .king-content-header > .breadcrumb > li > a > .glyphicon, .king-content-header > .breadcrumb > li > a > .ion {
+  margin-right: 5px;
+}
+
+.king-content-header > .breadcrumb > li + li:before {
+  content: '>\00a0';
+}
+
+.king-content {
+  min-height: 250px;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}

@@ -1,0 +1,121 @@
+<%inherit file="/temp/base.html"/>
+    <%block name='head'>
+    ${parent.head()}
+    <link href="${STATIC_URL}css/configuration.css?v=${STATIC_VERSION}" rel="stylesheet" type="text/css" >
+    <link href="${STATIC_URL}css/other.css?v=${STATIC_VERSION}" rel="stylesheet" type="text/css" >
+    <link href="${STATIC_URL}assets/datatables-1.10.7/dataTables.bootstrap.css?v=${STATIC_VERSION}" rel="stylesheet" type="text/css" >
+</%block>
+
+<%block name='content'>
+<section id="model-list">
+    <div class="standardCon work">
+        <!-- 流程列表 开始 -->
+        <div class="workList">
+            <h3>${_(u'流程列表')}</h3>
+            % if import_v1_flag:
+            <a class="king-btn king-warning pull-right workBot" target="_blank" href="${SITE_URL}template/api/import_v1/${BIZ_CC_ID}/">${_(u'导入V1.0模板')}</a>
+            % endif
+            <a class="king-btn king-primary pull-right workBot guide-step1" href="${SITE_URL}template/new/${BIZ_CC_ID}/">${_(u'新建流程')}</a>
+            <div class="king-block mb0 pb10">
+                <div class="king-block-content">
+                    <table id="template_datatables" class="table table-bordered mt15" style="table-layout: fixed;">
+                        <colgroup>
+                            <col width="100px" />
+                            <col />
+                            <col width="${_(u'75px')}"/>
+                            <col />
+                            <col width="100px" />
+                            <col width="495px"/>
+                        </colgroup>
+                        <thead>
+                            <tr class="template_datatables">
+                                <th>ID</th>
+                                <th><div>${_(u'流程名称')}</div></th>
+                                <th>${_(u'流程类型')}</th>
+                                <th>${_(u'更新时间')}</th>
+                                <th>${_(u'创建人')}</th>
+                                <th>${_(u'操作')}</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- 流程列表 结束 -->
+        <!--弹层-->
+        <div class="elastic-box" v-show="is_show">
+            <div class="arrow-box-select">
+                <div class="arrow-con">
+                    <button i="close" class="ui-dialog-close task-close power" @click="powe_close" title="Cancel">×</button>
+                    <div class="arrow-tex">${_(u'权限管理')}</div>
+                    <div class="select1 clearfix">
+                        <span class="left">${_(u'可填写参数的人')}</span>
+                        <div class="plugin3_demo right" id="plugin3_demo4">
+                        <!-- select2 下拉选项可多选 start -->
+                        <select multiple="multiple" class="select2_box sele" id="e2">
+                            <optgroup label="{{ list.text }}" v-for="list in people_data">
+                                <option value="{{ name.id }}" v-for="name in list.children">{{ name.text }}</option>
+                            </optgroup>
+                        </select>
+                        <!-- select2 下拉选项可多选 end -->
+                    </div>
+                    </div>
+                    <div class="select1 clearfix">
+                        <span class="left">${_(u'可执行的人')}</span>
+                        <div class="plugin3_demo right" id="plugin3_demo5">
+                            <select multiple="multiple" class="select2_box sele" id="e3">
+                                <optgroup label="{{ list.text }}" v-for="list in people_data">
+                                    <option value="{{ name.id }}" v-for="name in list.children">{{ name.text }}</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="btn-tow select1 clearfix">
+                        <span class="left">&nbsp;</span>
+                        <div class="right">
+                            <a href="javascript:;" class="bc border-ddd" @click="save_power">${_(u'保存')}</a>
+                            <a href="javascript:;" class="qx border-ddd">${_(u'取消')}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--弹层结束-->
+        <!-- 删除确认弹窗 -->
+        <div class="modal fade" id="del_moban">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-close task-close"></i></button>
+                <p class="modal-title f16"><b>${_(u'提示')}</b></p>
+              </div>
+              <div class="modal-body">
+                <h4 class="text-center">${_(u'您确定要删除该流程吗')}！</h4>
+              </div>
+              <div class="modal-footer text-center">
+                  <button type="button" class="btn btn-primary del-moban-btn">${_(u'确认')}</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">${_(u'取消')}</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        <!-- 删除确认弹窗 end -->
+    <!-- 任务预览 begin -->
+    <article id="task-preview" class="task-pre">
+        <div class="task-preview-con no-hide">
+            <button i="close" class="ui-dialog-close task-close" title="Cancel">×</button>
+            <div class="task-preview-title">${_(u'任务流程图预览')}</div>
+            <div class="warp-preview swiper-container no-hide" id="on-preview">
+                <ul class="warp-ul swiper-wrapper no-hide clearfix" id="preview-list">
+                </ul>
+            </div>
+            <div class="swiper-button-prev prev no-hide" id="prev2"></div>            <div class="swiper-button-next next no-hide" id="next2"></div>
+        </div>
+    </article>
+    <!-- 任务预览 end -->
+</section>
+</%block>
+<script src="${REMOTE_STATIC_URL}v3/assets/bootstrap-3.3.4/js/bootstrap.min.js?v=${STATIC_VERSION}"></script>
+<script src="${STATIC_URL}assets/datatables-1.10.7/jquery.dataTables.min.js?v=${STATIC_VERSION}"></script>
+<script src="${STATIC_URL}assets/datatables-1.10.7/dataTables.bootstrap.min.js?v=${STATIC_VERSION}"></script>
+<script src="${STATIC_URL}tasktmpl3/js/home.js?v=${STATIC_VERSION}"></script>

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*===================================================*\ 
+ * 常见问题 template6
+\*===================================================*/
+.king-page-problem {
+  padding-bottom: 30px;
+}
+.king-page-problem section {
+  padding-top: 30px;
+}
+.king-page-problem section h2 {
+  min-height: 25px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25px;
+}
+.king-page-problem section > div {
+  padding: 13px 25px 8px 13px;
+  margin-top: 10px;
+  border: 1px solid #e3e3e3;
+  background: #f5f5f5;
+  position: relative;
+}
+.king-page-problem section > div::after {
+  display: block;
+  content: "";
+  width: 17px;
+  height: 11px;
+  position: absolute;
+  top: -11px;
+  left: 32px;
+}
+.king-page-problem section p {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+/*===================================================*\ 
+ * 提示信息 template3
+\*===================================================*/
+.king-help-block {
+  color: #737373;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-size: 12px;
+}

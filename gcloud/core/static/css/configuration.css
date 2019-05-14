@@ -1,0 +1,419 @@
+.workSearch ul li {
+    float: left;
+    min-width: 70px;
+    height: 30px;
+    text-align: center;
+    transition: all .35s ease-out;
+    -webkit-transition: all .35s ease-out;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+.border-ddd {
+    border: 1px solid #ddd;
+}
+
+.task-type {
+    height: 30px;
+}
+
+ul.config-type li {
+    float: left;
+    min-width: 70px;
+    height: 30px;
+    text-align: center;
+    transition: all .35s ease-out;
+    -webkit-transition: all .35s ease-out;
+    line-height: 30px;
+    background-color: white;
+}
+
+ul.config-type li:hover {
+    background-color: #4a9bff;
+    cursor: pointer;
+    color: white;
+}
+
+ul.config-type li.active {
+    background-color: #4a9bff;
+    color: white;
+}
+
+/*.no-right{
+   /!* border: 1px solid #ddd;*!/
+    border-right: 0px;
+}*/
+ul li.border-ddd + li {
+    margin-left: -1px;
+}
+
+.workTable > table > td {
+    text-align: center;
+}
+
+.workSearch ul li.active {
+    background: #4a9bff;
+    border: 1px solid #2180f5;
+    color: #fff;
+    cursor: pointer;
+}
+
+.workSearch ul .border-ddd:hover {
+    background: #4a9bff;
+    border: 1px solid #2180f5;
+    color: #fff;
+    cursor: pointer;
+}
+
+.workSearch > div {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+#config_datatables_wrapper tr th.attr-val {
+    max-width: 300px;
+}
+
+.span-over {
+    display: block;
+    width: 300px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.workOperation span.new-cl {
+    border: 1px solid #5c90d2;
+    background: #5c90d2;
+    color: #fff;
+}
+
+.workOperation span.Work_fail {
+    border: 1px solid #d26a5c;
+    background: #d26a5c;
+    color: #fff;
+}
+
+.workSearch .nav-left {
+    position: relative;
+    width: 560px;
+    float: left;
+    width: calc(100% - 100PX) ! important;
+}
+
+.nav-left .w-i {
+    left: 12px !important;
+}
+
+.nav-left input {
+    top: 10px;
+
+}
+
+.workSearch .nav-w {
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+.workOperation .Work_success {
+    background: #46c37b;
+    color: #fff;
+    line-height: 21px;
+}
+
+.workOperation {
+    border-radius: 10px;
+}
+
+.workOperation {
+    margin-right: 30px;
+}
+
+.workOperation > span {
+    border-radius: 3px;
+}
+
+.color-5 {
+    color: #5c90d2 !important;
+}
+
+/*.workSearch ul li {
+    display: inline-block;
+    float: left;
+    padding: 7px 16px;
+    text-align: center;
+}*/
+
+.workTable > table > td {
+    text-align: center;
+}
+
+/*.workSearch ul li:hover {
+    background: #4a9bff;
+    cursor: pointer;
+}*/
+.workSearch > div {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+.workSearch ul li.active {
+    background: #4a9bff;
+    border: 1px solid #2180f5;
+    color: #fff;
+    cursor: pointer;
+}
+
+.value {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+
+.aaa {
+    max-width: 490px;
+    overflow: hidden;
+}
+
+.dataTables_wrapper .col-sm-7 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#config-list .workSearch {
+    border-top: none;
+}
+
+#config-list .workBot {
+    top: 1px;
+    right: 0px;
+}
+
+.w-auto {
+    width: auto;
+    min-width: auto;
+}
+
+.work .workList h3 {
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.modal-footer.text-center {
+    text-align: center;
+}
+
+.w-300 {
+    width: 300px;
+}
+
+.paginate_button.active a {
+    z-index: 0;
+}
+
+.work .workList .workSearch {
+    padding-top: 20px;
+}
+
+.taskflow-type-title {
+    height: 30px;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#taskflow_datatables_wrapper .filter-myStyle {
+    position: absolute;
+    top: 71px;
+    right: 5px;
+    width: 290px;
+    float: right;
+}
+
+#taskflow_datatables_filter label {
+    width: 100%;
+}
+
+#taskflow_datatables_filter input {
+    width: 100%;
+}
+
+#taskflow_datatables_wrapper .filter-myStyle .dataTables_filter input {
+    margin-left: 0;
+    /*width: 150px;*/
+    padding-left: 24px;
+    background: white url('../images/search.png') no-repeat 5px center;
+}
+
+#taskflow_datatables th, td {
+    height: 30px;
+}
+
+.work .workList .bt-none {
+    border-top: none;
+    width: 100%;
+    padding-right: 300px;
+}
+
+.work-bre {
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+    /*width: 300px;*/
+}
+
+.recording {
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+    width: 100%;
+    /*max-width: 420px;*/
+}
+
+.workList table.dataTable thead > tr > th {
+    padding-right: 8px;
+}
+
+/* datatables 搜索框隐藏 */
+#config_datatables_wrapper .row:nth-of-type(1) {
+    position: absolute;
+    top: -1000px;
+}
+
+#config_datatables_filter {
+    position: absolute;
+    visibility: hidden;
+    top: -1000px;
+}
+
+.table tr td:nth-child(5), .table tr td:nth-child(6), .table tr td:nth-child(7), .table tr td:nth-child(8) {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dataTables_wrapper .col-sm-7 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a.name-attr {
+    display: inline-block;
+    width: 300px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 5px;
+}
+
+.workList .workBot {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.w-auto {
+    width: auto;
+    min-width: auto;
+}
+
+.work .workList h3 {
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.modal-footer.text-center {
+    text-align: center;
+}
+
+.w-300 {
+    width: 300px;
+}
+
+.paginate_button.active a {
+    z-index: 0;
+}
+
+@media (max-width: 1920px) {
+    .span-over {
+        width: 560px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .span-over {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1420px) {
+    .span-over {
+        width: 400px;
+    }
+
+    a.name-attr {
+        display: inline-block;
+        width: 220px;
+    }
+}
+
+@media (max-width: 1340px) {
+    .workList table.dataTable thead > tr > th {
+        padding-right: 0;
+        padding: 8px 2px;
+    }
+
+    a.name-attr {
+        width: 180px;
+    }
+
+    .span-over {
+        width: 338px;
+    }
+}
+
+@media (max-width: 1200px) {
+    a.name-attr {
+        width: 120px;
+    }
+
+    .span-over {
+        width: 260px;
+    }
+}
+
+@media (min-width: 768px) {
+    .length-myStyle {
+        display: none;
+    }
+
+    .filter-myStyle {
+        width: 50%;
+        float: left;
+    }
+
+    .filter-myStyle .dataTables_filter {
+        text-align: left;
+    }
+
+    .filter-myStyle #taskflow_datatables_filter {
+        text-align: right;
+    }
+
+    .filter-myStyle .dataTables_filter input {
+        margin-left: 0;
+        width: 300px;
+        padding-left: 24px;
+        background: white url('../images/search.png') no-repeat 5px center;
+    }
+}
+
+ #work_history_box .king-block .king-block-content {
+     padding: 0 20px 20px;
+ }

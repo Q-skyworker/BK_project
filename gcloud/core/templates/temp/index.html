@@ -1,0 +1,197 @@
+<%inherit file="/temp/base.html"/>
+
+<%block name='head'>
+${parent.head()}
+<!-- 图标 插件 -->
+<link href="${REMOTE_STATIC_URL}v3/assets/mCustomScrollbar-3.0.9/jquery.mCustomScrollbar.css" rel="stylesheet" >
+<link href="${STATIC_URL}core/css/index.css?v=${STATIC_VERSION}" rel="stylesheet" type="text/css" >
+</%block>
+
+<%block name='content'>
+<section class="shou">
+    <div class="standardCon shou" id="homepage">
+        <!-- 模块入口 开始 -->
+        <div class="templateIn">
+            <div class="indexCon" id="index-list">
+                <ul class="clearfix">
+                    <li>
+                        <div class="line line1"></div>
+                        <div class="tempBox runWork">
+                            <div class="text clearfix">
+                                <div class="textRight" v-cloak>
+                                    <a id="doWork" href="${SITE_URL}template/home/${BIZ_CC_ID}/">
+                                        <span>
+                                            <i class="fa fa-tasks active"></i>
+                                            <em class="active">${_(u'进入')}</em>
+                                        </span>
+                                    </a>
+                                    <span>
+                                        ${_(u'执行任务')}
+                                        <h3>{{ taskflow_count }} ${_(u'次')}</h3>
+                                    </span>
+                                </div>
+                                <div class="textLeft" v-cloak>
+                                  <p v-for="(index, list) in taskflow_cate">{{ list[0] }} : <span>{{ list[1] }}</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="line line2"></div>
+                        <div class="tempBox creatMoni">
+                            <div class="text clearfix">
+
+                                <div class="textRight" v-cloak>
+                                    <a id="goToCreate" href="${SITE_URL}template/new/${BIZ_CC_ID}/">
+                                        <span class="creat">
+                                            <i class="fa fa-puzzle-piece active"></i>
+                                            <em class="active">${_(u'进入')}</em>
+                                        </span>
+                                    </a>
+                                    <span>
+                                        ${_(u'创建流程')}
+                                        <h3>{{ template_count }} ${_(u'个')}</h3>
+                                    </span>
+                                </div>
+                                <div class="textLeft" v-cloak>
+                                    <div class="textCon clearfix">
+                                        <div class="conLeft">
+                                        <p v-for="(index, list) in template_cate" v-if="index < (template_cate.length/2) ">{{ list[0] }} : <span>{{ list[1] }}</span></p>
+                                        </div>
+                                        <div class="conRight" v-cloak>
+                                        <p v-for="(index, list) in template_cate" v-if="index >= (template_cate.length/2) ">{{ list[0] }} : <span>{{ list[1] }}</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="line line3"></div>
+                        <div class="tempBox qing">
+                            <div class="text clearfix">
+                                <div class="textRight" v-cloak>
+                                    <a id="qingYinYong" href="${SITE_URL}appmaker/home/${BIZ_CC_ID}/">
+                                        <span class="qing">
+                                            <i class="fa iconfont icon-11 active"></i>
+                                            <em class="active">${_(u'进入')}</em>
+                                        </span>
+                                    </a>
+                                    <span>
+                                        ${_(u'轻应用')}
+                                        <h3>{{ appmaker_count }} ${_(u'个')}</h3>
+                                    </span>
+                                </div>
+                                <div class="textLeft" v-cloak>
+                                    <div class="textCon clearfix">
+                                        <div class="conLeft">
+                                         <p v-for="(index, list) in appmaker_cate" v-if="index < (appmaker_cate.length/2) ">{{ list[0]}} : <span>{{ list[1] }}</span></p>
+                                        </div>
+                                        <div class="conRight" v-cloak>
+                                         <p v-for="(index, list) in appmaker_cate" v-if="index >= (appmaker_cate.length/2) ">{{ list[0]}} : <span>{{ list[1] }}</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 模块入口 end -->
+        <div class="tempCon">
+            <!-- 常用模块 开始 -->
+            <div class="indexCon commonTemp boxshad clearfix" id="index_collection_box">
+                <div class="commonLeft">
+                    <!-- 我的常用模块展示 -->
+                    <p>${_(u'快速创建任务')}</p>
+                </div>
+                <div class="commonRight">
+                    <i class="fa fa-plus commonMore" @click="showKeepBox"></i>
+                    <ul class="keep-list" v-cloak style="margin-left:30px;">
+                        <li v-for="item in templates" v-if="item.is_add" class="mb5"><a title="{{item.name}}" href="${SITE_URL}template/newtask/${BIZ_CC_ID}/selectnode/?template_id={{item.template_id}}" class="king-btn king-default">{{item.name}}</a></li>
+                        <div class="viewMore"></div>
+                    </ul>
+                </div>
+
+                <!-- 常用流程弹层 -->
+                <div class="mylink" v-bind:class="['mylink',{'active':keepBoxShow}]">
+                    <div class="customize-link">
+                        <h3>${_(u'我的常用流程')}
+                        <p id="addlink-tips" v-if="tooLong">${_(u'提示：最多只能添加十个常用流程，请及时清除不常使用的流程哦:)')}</p>
+                        </h3>
+                        <div class="pa" v-if="add_data_tip">${_(u'无常用流程')}</div>
+                        <ul class="comlink">
+                        <li v-for="item in templates" v-if="item.is_add" class="li-bag col-sm-6">
+                            <div class="king-btn-group title-bag" style="width: 100%;background: #444;">
+                                <a class="li-bag-btn" title="{{item.name}}" href="${SITE_URL}template/newtask/${BIZ_CC_ID}/selectnode/?template_id={{item.template_id}}">{{item.name}}</a>
+                                <span class="span_x " @click="noKeep($index)">X</span>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="all-link">
+                        <i class="arr-top">◆</i>
+                        <del id="close-layer" @click="hideKeepBox">×</del>
+                        <div class="all-link-box" v-scrollbar v-cloak>
+                            <template v-for="one in category">
+                                <dl class="custom row">
+                                    <dt class="dt-bb">
+                                    <h3 class="pl15 dt-h3-bb">{{one.value}}</h3>
+                                    </dt>
+                                    <dd v-for="item in templates" v-if="one.value==item.category_name" class="col-sm-6">
+
+                                        <a v-bind:class="['king-b','king-btn','king-btn-icon','king-default','king-btn-mini',{'has-keep':item.is_add}]" @click="toKeep($index)">
+                                            <i class=" icol-cl fa fa-plus" :class="{'fa-minus':item.is_add, 'fa-plus': !item.is_add}"></i>
+                                        </a>
+                                        <a class=" colloection-list-name" title="{{item.name}}" href="${SITE_URL}template/newtask/${BIZ_CC_ID}/selectnode/?template_id={{item.template_id}}">{{item.name}}</a>
+                                    </dd>
+                                </dl>
+                            </template>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- 常用流程弹层 end -->
+            </div>
+            <!-- 常用模块 end -->
+            <div class="indexCon seCon clearfix" id="index-news" style="position: relative">
+                <div class=" temporary-nodata"  v-if="nodata_title">${_(u'无数据')}</div>
+                <div class="seLeft boxshad">
+                    <ul class="king-timeline" v-cloak>
+                        <li class="time-label">
+                            <span class="active">${_(u'业务动态')}</span>
+                            <a href="${SITE_URL}taskflow/home/${BIZ_CC_ID}/" class="news-more">${_(u'查看更多')}</a>
+                        </li>
+                        <li v-if="is_news" class="on" v-for="news in business_news">
+                            <i class="fa fa-arrow-circle-o-up arrow-up"></i>
+                            <div class="king-timeline-item has-border">
+                                <span class="time bor" title="{{ news.status_title }}"><i class="{{ news.status_fa }}"></i></span>
+                                <h3 class="king-timeline-header no-border font-fa">{{ news.executor_name }} {{ news.action }} {{ news.category_name }} ${_(u'任务')}</h3>
+                                <p class="active">[{{ news.show_time }}]{{ news.name }}, ${_(u'耗时')} {{ news.time_consuming }}</p>
+                                <a href="{{ news.url }}" class="active">${_(u'查询详情')}</a>
+                            </div>
+                        </li>
+                        <li v-if="is_info" class="on">
+                            <div class="king-timeline-item has-border">
+                                <h3 class="king-timeline-header no-border font-fa">${_(u'暂无相关数据')}</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa fa-clock-o king-bg-gray"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="seRight boxshad" style="position: relative">
+                    <div id="main">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</%block>
+
+<script src="${STATIC_URL}core/js/echarts.common.min.js?v=${STATIC_VERSION}"></script>
+<script src="${REMOTE_STATIC_URL}v3/assets/mCustomScrollbar-3.0.9/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="${STATIC_URL}core/js/index.js?v=${STATIC_VERSION}"></script>

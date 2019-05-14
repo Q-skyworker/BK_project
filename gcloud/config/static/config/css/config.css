@@ -1,0 +1,13 @@
+#config_home .control-group {
+    width: 50%;
+    margin: 20px auto auto auto;
+    text-align: center;
+}
+
+#config_home .control-group input {
+    width: 82%;
+    height: 30px;
+    padding: 2px 4px;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+}

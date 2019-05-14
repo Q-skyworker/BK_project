@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>${_(u'标准运维')}|${_(RUN_VER_NAME)}</title>
+    <script>
+        var RUN_VER = '${RUN_VER}';
+        var SITE_URL = '${SITE_URL}';
+        var USERNAME = '${USERNAME}';
+        var BIZ_CC_ID = '${BIZ_CC_ID}';
+        // 隐藏头部，目前需要嵌入到其他 APP 作为 iframe 子页面
+        var HIDE_HEADER = Number('${HIDE_HEADER}');
+        // 用户身份： 运维
+        var IS_MAINTAINER = Number('${is_maintainer}');
+        // 用户身份： 职能化
+        var IS_FUNCTOR = Number('${is_functor}');
+        // 用户身份： 审计员
+        var IS_AUDITOR = Number('${is_auditor}');
+        // APP 内打开或者轻应用内打开
+        var VIEW_MODE = '${view_mode or "app"}';
+        // 轻应打开时的轻应用ID
+        var APP_ID = '${app_id or "0"}';
+        function getCookie(name) {
+            var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");　　
+            return (arr = document.cookie.match(reg)) ? unescape(arr[2]) : null;
+        }
+    </script>
+	<link href="${STATIC_URL}dist/css/vendors.css?v=${STATIC_VERSION}" rel="stylesheet">
+    <link href="${STATIC_URL}dist/css/main.css?v=${STATIC_VERSION}" rel="stylesheet">
+</head>
+
+<body>
+	<div id="root"></div>
+	<script type="text/javascript" src="${SITE_URL}jsi18n/gcloud/"></script>
+	<script type="text/javascript" src="${STATIC_URL}dist/js/runtime~main.js?v=${STATIC_VERSION}"></script>
+	<script type="text/javascript" src="${STATIC_URL}dist/js/vendors.js?v=${STATIC_VERSION}"></script>
+	<script type="text/javascript" src="${STATIC_URL}dist/js/main.js?v=${STATIC_VERSION}"></script>
+	<script type="text/javascript" src="${STATIC_URL}js/paas_api.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+@charset "UTF-8";
+.king-nav-tabs1 > li {
+  margin-bottom: -2px;
+}
+.king-nav-tabs1 > li > a {
+  border: 1px solid #ddd;
+  border-left: none !important;
+  margin-right: 0;
+  background: #FBFAF8;
+  color: #645F63;
+}
+.king-nav-tabs1 > li:first-child > a {
+  border-left: 1px solid #ddd !important;
+}
+.king-nav-tabs1 > li.active > a {
+  background: #FFF;
+}
+.king-nav-tabs1 > li.active > a:hover {
+  border-bottom-color: #fff !important;
+}
+.king-nav-tabs1.nav .open > a, .king-nav-tabs1 .nav .open > a:focus, .king-nav-tabs1 .nav .open > a:hover {
+  border-color: #ddd;
+}
+.king-nav-tabs1.nav-tabs > li > a:hover {
+  border-color: #ddd;
+}
+
+.king-tab-success.king-nav-tabs1 > li.active > a {
+  border-top: 2px solid #46c37b !important;
+}
+
+.king-tab-info.king-nav-tabs1 > li.active > a {
+  border-top: 2px solid #4A9BFF !important;
+}
+
+.king-tab-warning.king-nav-tabs1 > li.active > a {
+  border-top: 2px solid #f3b760 !important;
+}
+
+.king-tab-danger.king-nav-tabs1 > li.active > a {
+  border-top: 2px solid #d26a5c !important;
+}
+
+.king-nav-tabs2 {
+  border: 1px solid #ddd;
+  background: #FBFAF8;
+}
+.king-nav-tabs2 > li {
+  margin-bottom: -2px;
+}
+.king-nav-tabs2 > li > a {
+  border: none;
+  margin-right: 0;
+  background: #FBFAF8;
+  color: #645F63;
+}
+.king-nav-tabs2 > li > a:focus {
+  background: #FBFAF8;
+}
+.king-nav-tabs2 > li.active > a {
+  border-top: 2px solid #fff !important;
+  background: #fff;
+}
+.king-nav-tabs2 > li.active:first-child a {
+  border-left: none;
+}
+
+.king-tab-success.king-nav-tabs2 > li.active > a {
+  margin-top: -1px;
+  border-top: 2px solid #46c37b !important;
+}
+
+.king-tab-info.king-nav-tabs2 > li.active > a {
+  margin-top: -1px;
+  border-top: 2px solid #4A9BFF !important;
+}
+
+.king-tab-warning.king-nav-tabs2 > li.active > a {
+  margin-top: -1px;
+  border-top: 2px solid #f3b760 !important;
+}
+
+.king-tab-danger.king-nav-tabs2 > li.active > a {
+  margin-top: -1px;
+  border-top: 2px solid #d26a5c !important;
+}
+
+/*===================================================*\ 
+ * 向前兼容而保留，不要删除
+\*===================================================*/
+.king-nav-tabs > li {
+  margin-bottom: -2px;
+}
+.king-nav-tabs > li > a {
+  border-color: #ddd;
+  margin-right: 0;
+  background: #FBFAF8;
+  color: #645F63;
+}
+.king-nav-tabs > li.active > a {
+  border-top-color: #4A9BFF !important;
+  background: #FFF;
+  border-top-width: 2px !important;
+}
+.king-nav-tabs > li.active > a:focus {
+  border-top-color: #4A9BFF !important;
+  background: #FFF;
+  border-top-width: 2px !important;
+}

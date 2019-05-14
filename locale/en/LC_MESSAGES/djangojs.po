@@ -1,0 +1,2213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-09 11:45+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gcloud/config/static/config/js/biz_executor.js:22
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:228
+#: pipeline/blueflow/src/pages/template/TemplateEdit/index.vue:265
+#: pipeline/blueflow/static/dist/js/main.js:157
+msgid "保存成功"
+msgstr "Saved successfully"
+
+#: gcloud/contrib/appmaker/static/appmaker/js/light_application.js:133
+msgid "操作确认"
+msgstr "Operation Confirm"
+
+#: gcloud/contrib/appmaker/static/appmaker/js/light_application.js:134
+msgid "确定要删除该轻应用吗？"
+msgstr "Are you sure to delete this Mini-App?"
+
+#: gcloud/contrib/appmaker/static/appmaker/js/light_application.js:137
+msgid "确认"
+msgstr "Confirm"
+
+#: gcloud/contrib/appmaker/static/appmaker/js/light_application.js:147
+msgid "轻应用删除成功"
+msgstr "Mini-APP deleted successfully"
+
+#: gcloud/contrib/appmaker/static/appmaker/js/light_application.js:158
+#: gcloud/taskflow3/static/taskflow3/js/home.js:246
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:186
+#: pipeline/blueflow/src/components/common/RenderForm/TagDatatable.vue:133
+#: pipeline/blueflow/src/pages/task/TaskExecute/ModifyTime.vue:41
+#: pipeline/blueflow/src/pages/task/TaskExecute/RetryNode.vue:41
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:173
+#: pipeline/blueflow/static/dist/js/main.js:475
+#: pipeline/blueflow/static/dist/js/main.js:565
+#: pipeline/blueflow/static/dist/js/main.js:865
+#: pipeline/blueflow/static/dist/js/main.js:883
+msgid "取消"
+msgstr "Cancel"
+
+#: gcloud/contrib/appmaker/static/appmaker/js/light_application.js:494
+msgid "上传图片须为png格式"
+msgstr "Upload images in png format"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:7
+#: gcloud/contrib/function/static/function/js/home.js:7
+#: gcloud/taskflow3/static/taskflow3/js/home.js:39
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:10
+#: pipeline/blueflow/src/components/common/RenderForm/TagSelect.vue:109
+#: pipeline/blueflow/static/dist/js/main.js:421
+msgid "加载中"
+msgstr "Loading"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:8
+#: gcloud/contrib/function/static/function/js/home.js:8
+#: gcloud/taskflow3/static/taskflow3/js/home.js:40
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:11
+msgid "每页显示 _MENU_ 记录"
+msgstr "Display _MENU_ record per page"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:9
+#: gcloud/contrib/function/static/function/js/home.js:9
+#: gcloud/taskflow3/static/taskflow3/js/home.js:41
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:12
+msgid "没找到相应的数据！"
+msgstr "No data found!"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:10
+#: gcloud/contrib/function/static/function/js/home.js:10
+#: gcloud/taskflow3/static/taskflow3/js/home.js:42
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:13
+msgid "共 _TOTAL_ 条记录，当前第 _PAGE_ / _PAGES_"
+msgstr "_TOTAL_ records, current _PAGE_ / _PAGES_"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:11
+#: gcloud/contrib/function/static/function/js/home.js:11
+#: gcloud/taskflow3/static/taskflow3/js/home.js:43
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:14
+msgid "暂无数据！"
+msgstr "No Data"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:12
+#: gcloud/contrib/function/static/function/js/home.js:12
+#: gcloud/taskflow3/static/taskflow3/js/home.js:44
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:15
+msgid "(从 _MAX_ 条数据中搜索)"
+msgstr "(Search from _MAX_ data)"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:14
+#: gcloud/contrib/function/static/function/js/home.js:14
+#: gcloud/taskflow3/static/taskflow3/js/home.js:46
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:17
+msgid "首页"
+msgstr "First"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:15
+#: gcloud/contrib/function/static/function/js/home.js:15
+#: gcloud/taskflow3/static/taskflow3/js/home.js:47
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:18
+msgid "尾页"
+msgstr "Last"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:16
+#: gcloud/contrib/function/static/function/js/home.js:16
+#: gcloud/taskflow3/static/taskflow3/js/home.js:48
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:19
+msgid "上一页"
+msgstr "Previous"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:17
+#: gcloud/contrib/function/static/function/js/home.js:17
+#: gcloud/taskflow3/static/taskflow3/js/home.js:49
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:20
+msgid "下一页"
+msgstr "Next"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:53
+#: gcloud/contrib/audit/static/audit/js/home.js:181
+#: gcloud/contrib/function/static/function/js/home.js:54
+#: gcloud/taskflow3/static/taskflow3/js/home.js:82
+#: gcloud/taskflow3/static/taskflow3/js/home.js:268
+#: pipeline/blueflow/src/constants/index.js:7
+#: pipeline/blueflow/static/dist/js/main.js:25
+msgid "完成"
+msgstr "Finished"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:57
+#: gcloud/taskflow3/static/taskflow3/js/home.js:86
+#: pipeline/blueflow/src/constants/index.js:2
+#: pipeline/blueflow/static/dist/js/main.js:25
+msgid "未执行"
+msgstr "Created"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:70
+#: gcloud/contrib/function/static/function/js/home.js:71
+msgid "查看"
+msgstr "View"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:142
+#: gcloud/contrib/function/static/function/js/home.js:130
+msgid "请输入关键字"
+msgstr "Please enter keywords"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:183
+#: gcloud/contrib/audit/static/audit/js/home.js:187
+#: gcloud/taskflow3/static/taskflow3/js/home.js:270
+#: gcloud/taskflow3/static/taskflow3/js/home.js:274
+#: pipeline/blueflow/src/constants/index.js:3
+#: pipeline/blueflow/static/dist/js/main.js:25
+msgid "执行中"
+msgstr "Executing"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:185
+#: gcloud/taskflow3/static/taskflow3/js/home.js:272
+#: pipeline/blueflow/src/constants/index.js:6
+#: pipeline/blueflow/static/dist/js/main.js:25
+msgid "失败"
+msgstr "Failed"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:189
+#: gcloud/taskflow3/static/taskflow3/js/home.js:276
+#: pipeline/blueflow/src/constants/index.js:4
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskOperation.vue:132
+#: pipeline/blueflow/static/dist/js/main.js:25
+#: pipeline/blueflow/static/dist/js/main.js:781
+msgid "暂停"
+msgstr "Suspend"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:191
+#: gcloud/taskflow3/static/taskflow3/js/home.js:278
+#: pipeline/blueflow/src/constants/index.js:8
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskOperation.vue:140
+#: pipeline/blueflow/static/dist/js/main.js:25
+#: pipeline/blueflow/static/dist/js/main.js:781
+msgid "撤销"
+msgstr "Revoke"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:193
+#: gcloud/taskflow3/static/taskflow3/js/home.js:280
+#: pipeline/blueflow/src/constants/index.js:5
+#: pipeline/blueflow/static/dist/js/main.js:25
+msgid "节点暂停"
+msgstr "Node Suspended"
+
+#: gcloud/contrib/audit/static/audit/js/home.js:195
+#: gcloud/contrib/audit/static/audit/js/home.js:200
+#: gcloud/contrib/audit/static/audit/js/home.js:205
+#: gcloud/taskflow3/static/taskflow3/js/home.js:282
+#: gcloud/taskflow3/static/taskflow3/js/home.js:287
+#: gcloud/taskflow3/static/taskflow3/js/home.js:292
+msgid "未知"
+msgstr "Unknown"
+
+#: gcloud/contrib/function/static/function/js/home.js:56
+msgid "未认领"
+msgstr "Submitted"
+
+#: gcloud/core/static/core/js/index.js:14
+msgid "获取业务信息失败，请稍后重试！"
+msgstr "Get business info failed, please try again later!"
+
+#: gcloud/core/static/core/js/index.js:232
+msgid "任务已完成"
+msgstr "Task finished"
+
+#: gcloud/core/static/core/js/index.js:238
+msgid "任务执行中"
+msgstr "Task executing"
+
+#: gcloud/core/static/core/js/index.js:244
+msgid "任务执行失败"
+msgstr "Task failed"
+
+#: gcloud/core/static/core/js/index.js:250
+msgid "任务暂停中"
+msgstr "Task suspended"
+
+#: gcloud/core/static/core/js/index.js:256
+msgid "任务已撤销"
+msgstr "Task revoked"
+
+#: gcloud/core/static/core/js/index.js:262
+msgid "任务未执行"
+msgstr "Task created"
+
+#: gcloud/core/static/core/js/index.js:264
+msgid "创建了一个"
+msgstr "Create a"
+
+#: gcloud/core/static/core/js/index.js:284
+msgid "执行了一个"
+msgstr "Execute a"
+
+#: gcloud/core/static/core/js/index.js:335
+msgid "暂无相关数据"
+msgstr "No relevant data"
+
+#: gcloud/core/static/core/js/index.js:367
+msgid "刚刚"
+msgstr "Just now"
+
+#: gcloud/core/static/core/js/index.js:369
+msgid "分前"
+msgstr "Minute ago"
+
+#: gcloud/core/static/core/js/index.js:371
+msgid "小时前"
+msgstr "Hour ago"
+
+#: gcloud/core/static/core/js/index.js:373
+msgid "天前"
+msgstr "Day ago"
+
+#: gcloud/core/static/core/js/index.js:385
+msgid "秒"
+msgstr "Second"
+
+#: gcloud/core/static/core/js/index.js:387
+msgid "分"
+msgstr "Minute"
+
+#: gcloud/core/static/core/js/index.js:389
+msgid "小时"
+msgstr "Hour"
+
+#: gcloud/core/static/core/js/index.js:391
+msgid "天"
+msgstr "Day"
+
+#: gcloud/core/static/core/js/index.js:402
+#: gcloud/core/static/core/js/index.js:415
+msgid "任务类型占比"
+msgstr "Task types"
+
+#: gcloud/core/static/js/common.js:24
+msgid "请选择业务"
+msgstr "Please select business"
+
+#: gcloud/core/static/js/settings.js:29 gcloud/core/static/js/settings.js:40
+#: gcloud/core/static/js/settings.js:52 gcloud/core/static/js/settings.js:71
+#: gcloud/taskflow3/static/taskflow3/js/home.js:229
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:168
+#: pipeline/blueflow/src/config/setting.js:48
+#: pipeline/blueflow/static/dist/js/main.js:1394
+msgid "提示"
+msgstr "Prompt"
+
+#: gcloud/core/static/js/settings.js:49
+msgid "您没有访问权限"
+msgstr "You have no access permissions"
+
+#: gcloud/core/static/js/settings.js:61
+msgid "对不起，您没有权限进行此操作"
+msgstr "Sorry, you have no permissions to operate it."
+
+#: gcloud/core/static/js/settings.js:63
+#: pipeline/blueflow/src/components/common/modal/ErrorCode403.vue:26
+#: pipeline/blueflow/static/dist/js/main.js:1009
+msgid "请尝试如下操作："
+msgstr "Please try the following operations:"
+
+#: gcloud/core/static/js/settings.js:65
+msgid "联系业务“管理员”为您添加操作权限"
+msgstr "Contact business \"admin\" to add operational permissions for you"
+
+#: gcloud/core/static/js/settings.js:82
+#: pipeline/blueflow/src/components/common/modal/ErrorCode500.vue:14
+#: pipeline/blueflow/src/utils/errorHandler.js:28
+#: pipeline/blueflow/src/utils/errorHandler.js:33
+#: pipeline/blueflow/static/dist/js/main.js:13
+#: pipeline/blueflow/static/dist/js/main.js:1027
+msgid "系统出现异常, 请记录下错误场景并与开发人员联系, 谢谢!"
+msgstr "System error occurred. Please record error scenario and contact developer, thanks!"
+
+#: gcloud/core/static/moment/moment.min.js:6
+msgid "\n"
+msgstr "\n"
+
+#: gcloud/core/static/remote/v3/assets/jquery-ui-1.11.0.custom/jquery-ui.min.js:10
+msgid "'"
+msgstr "'"
+
+#: gcloud/taskflow3/static/taskflow3/js/home.js:114
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:95
+#: pipeline/blueflow/src/pages/task/TaskList/index.vue:69
+#: pipeline/blueflow/src/pages/template/TemplateList/index.vue:65
+#: pipeline/blueflow/static/dist/js/main.js:613
+#: pipeline/blueflow/static/dist/js/main.js:643
+msgid "克隆"
+msgstr "Clone"
+
+#: gcloud/taskflow3/static/taskflow3/js/home.js:118
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:97
+#: pipeline/blueflow/src/components/common/RenderForm/TagDatatable.vue:136
+#: pipeline/blueflow/src/pages/task/TaskList/index.vue:70
+#: pipeline/blueflow/src/pages/template/TemplateList/index.vue:66
+#: pipeline/blueflow/static/dist/js/main.js:475
+#: pipeline/blueflow/static/dist/js/main.js:613
+#: pipeline/blueflow/static/dist/js/main.js:643
+msgid "删除"
+msgstr "Delete"
+
+#: gcloud/taskflow3/static/taskflow3/js/home.js:191
+msgid "请输入ID或者任务名称"
+msgstr "Please enter ID or task name"
+
+#: gcloud/taskflow3/static/taskflow3/js/home.js:230
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:169
+msgid "您确定要删除该流程吗？"
+msgstr "Are you sure to delete this flow?"
+
+#: gcloud/taskflow3/static/taskflow3/js/home.js:236
+msgid "删除任务成功"
+msgstr "Task deleted successfully"
+
+#: gcloud/taskflow3/static/taskflow3/js/home.js:240
+msgid "删除任务失败"
+msgstr "Delete task failed"
+
+#: gcloud/taskflow3/static/taskflow3/js/home.js:244
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:184
+#: pipeline/blueflow/src/pages/task/TaskExecute/ModifyTime.vue:40
+#: pipeline/blueflow/src/pages/task/TaskExecute/RetryNode.vue:40
+#: pipeline/blueflow/static/dist/js/main.js:865
+#: pipeline/blueflow/static/dist/js/main.js:883
+msgid "确定"
+msgstr "OK"
+
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:93
+#: pipeline/blueflow/src/pages/template/TemplateList/index.vue:63
+#: pipeline/blueflow/static/dist/js/main.js:613
+#: pipeline/blueflow/static/dist/js/main.js:1051
+msgid "新建任务"
+msgstr "New Task"
+
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:94
+#: pipeline/blueflow/src/components/common/RenderForm/TagDatatable.vue:134
+#: pipeline/blueflow/src/pages/template/TemplateList/index.vue:64
+#: pipeline/blueflow/static/dist/js/main.js:475
+#: pipeline/blueflow/static/dist/js/main.js:613
+msgid "编辑"
+msgstr "Edit"
+
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:96
+msgid "权限管理"
+msgstr "Permissions"
+
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:98
+msgid "执行历史"
+msgstr "History"
+
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:105
+msgid "请输入ID或者流程名称"
+msgstr "Please enter ID or flow name"
+
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:154
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:248
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:254
+msgid "请选择人员"
+msgstr "Please select personnel"
+
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:176
+msgid "删除流程成功"
+msgstr "Flow deleted successfully"
+
+#: gcloud/tasktmpl3/static/tasktmpl3/js/home.js:180
+msgid "删除流程失败"
+msgstr "Delete flow failed"
+
+#: pipeline/blueflow/src/api/interceptors.js:49
+#: pipeline/blueflow/static/dist/js/main.js:1538
+msgid "接口数据返回为空"
+msgstr "No data returned by API"
+
+#: pipeline/blueflow/src/api/interceptors.js:50
+#: pipeline/blueflow/static/dist/js/main.js:1538
+msgid "接口异常，"
+msgstr "API error, "
+
+#: pipeline/blueflow/src/api/interceptors.js:50
+#: pipeline/blueflow/static/dist/js/main.js:1538
+msgid "HTTP状态码："
+msgstr "HTTP Status:"
+
+#: pipeline/blueflow/src/components/common/PipelineCanvas/ConfigBar.vue:33
+#: pipeline/blueflow/src/components/common/PipelineCanvas/MenuBar.vue:114
+#: pipeline/blueflow/static/dist/js/main.js:181
+#: pipeline/blueflow/static/dist/js/main.js:217
+msgid "请输入名称"
+msgstr "Please enter a name"
+
+#: pipeline/blueflow/src/components/common/PipelineCanvas/ConfigBar.vue:34
+#: pipeline/blueflow/static/dist/js/main.js:181
+msgid "保存流程"
+msgstr "Save"
+
+#: pipeline/blueflow/src/components/common/PipelineCanvas/ConfigBar.vue:35
+#: pipeline/blueflow/static/dist/js/main.js:181
+msgid "返回列表"
+msgstr "Return"
+
+#: pipeline/blueflow/src/components/common/PipelineCanvas/MenuBar.vue:113
+#: pipeline/blueflow/static/dist/js/main.js:217
+msgid "工具"
+msgstr "Tools"
+
+#: pipeline/blueflow/src/components/common/PipelineCanvas/index.vue:119
+#: pipeline/blueflow/static/dist/js/main.js:169
+msgid "复位"
+msgstr "Reset zoom"
+
+#: pipeline/blueflow/src/components/common/PipelineCanvas/index.vue:120
+#: pipeline/blueflow/static/dist/js/main.js:169
+msgid "放大"
+msgstr "Zoom in"
+
+#: pipeline/blueflow/src/components/common/PipelineCanvas/index.vue:121
+#: pipeline/blueflow/static/dist/js/main.js:169
+msgid "缩小"
+msgstr "Zoom out"
+
+#: pipeline/blueflow/src/components/common/PipelineCanvas/index.vue:186
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:179
+#: pipeline/blueflow/src/store/modules/template.js:381
+#: pipeline/blueflow/src/store/modules/template.js:394
+#: pipeline/blueflow/static/dist/js/main.js:169
+#: pipeline/blueflow/static/dist/js/main.js:295
+#: pipeline/blueflow/static/dist/js/main.js:1526
+msgid "步骤1"
+msgstr "Stage1"
+
+#: pipeline/blueflow/src/components/common/RenderForm/RenderForm.vue:318
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:198
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:166
+msgid "取消勾选"
+msgstr "Check to cancel"
+
+#: pipeline/blueflow/src/components/common/RenderForm/RenderForm.vue:318
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:165
+msgid "勾选参数作为全局变量"
+msgstr "Check to adding the parameter to Global Variables"
+
+#: pipeline/blueflow/src/components/common/RenderForm/TagDatatable.vue:102
+#: pipeline/blueflow/src/components/common/RenderForm/TagSelect.vue:96
+#: pipeline/blueflow/src/components/common/base/NoData.vue:17
+#: pipeline/blueflow/src/pages/task/TaskExecute/ViewParams.vue:76
+#: pipeline/blueflow/static/dist/js/main.js:247
+#: pipeline/blueflow/static/dist/js/main.js:421
+#: pipeline/blueflow/static/dist/js/main.js:475
+#: pipeline/blueflow/static/dist/js/main.js:793
+msgid "无数据"
+msgstr "No Data"
+
+#: pipeline/blueflow/src/components/common/RenderForm/TagDatatable.vue:132
+#: pipeline/blueflow/src/pages/task/TaskExecute/ModifyParams.vue:35
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:172
+#: pipeline/blueflow/static/dist/js/main.js:475
+#: pipeline/blueflow/static/dist/js/main.js:565
+#: pipeline/blueflow/static/dist/js/main.js:829
+msgid "保存"
+msgstr "Save"
+
+#: pipeline/blueflow/src/components/common/RenderForm/TagDatatable.vue:135
+#: pipeline/blueflow/src/pages/task/TaskList/index.vue:68
+#: pipeline/blueflow/src/pages/template/TemplateList/index.vue:62
+#: pipeline/blueflow/static/dist/js/main.js:475
+#: pipeline/blueflow/static/dist/js/main.js:613
+#: pipeline/blueflow/static/dist/js/main.js:643
+msgid "操作"
+msgstr "Operate"
+
+#: pipeline/blueflow/src/components/common/RenderForm/TagDatatable.vue:137
+#: pipeline/blueflow/static/dist/js/main.js:475
+msgid "添加"
+msgstr "Add"
+
+#: pipeline/blueflow/src/components/common/RenderForm/TagDatatable.vue:242
+msgid "请求表头数据失败，使用预置表头"
+msgstr "Requesting table titles failed, please config columns"
+
+#: pipeline/blueflow/src/components/common/RenderForm/TagDatetime.vue:23
+#: pipeline/blueflow/src/components/tag/TagTestDatetime.vue:23
+#: pipeline/blueflow/static/dist/js/main.js:457
+msgid "请选择日期时间"
+msgstr "plese select a datetime"
+
+#: pipeline/blueflow/src/components/common/RenderForm/TagSelect.vue:162
+#: pipeline/blueflow/src/components/common/RenderForm/TagTree.vue:138
+#: pipeline/blueflow/static/dist/js/main.js:421
+#: pipeline/blueflow/static/dist/js/main.js:499
+msgid "请求数据失败"
+msgstr "Get data failed"
+
+#: pipeline/blueflow/src/components/common/RenderForm/TagUpload.vue:80
+#: pipeline/blueflow/static/dist/js/main.js:487
+msgid "点击上传"
+msgstr "Upload"
+
+#: pipeline/blueflow/src/components/common/RenderForm/atomFormMixins.js:83
+#: pipeline/blueflow/src/main.js:51 pipeline/blueflow/static/dist/js/main.js:43
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "必填项"
+msgstr "Required"
+
+#: pipeline/blueflow/src/components/common/modal/ErrorCode401.vue:13
+msgid "您需要登录蓝鲸智云"
+msgstr "You need login BlueKing"
+
+#: pipeline/blueflow/src/components/common/modal/ErrorCode401.vue:14
+msgid "立即登录"
+msgstr "Login"
+
+#: pipeline/blueflow/src/components/common/modal/ErrorCode403.vue:25
+#: pipeline/blueflow/static/dist/js/main.js:991
+#: pipeline/blueflow/static/dist/js/main.js:1009
+msgid "对不起，您当前没有可操作的业务权限"
+msgstr "Sorry, you have no access permissions of any business"
+
+#: pipeline/blueflow/src/components/common/modal/ErrorCode403.vue:27
+#: pipeline/blueflow/static/dist/js/main.js:1009
+msgid "联系业务“管理员”为您添加相关业务的[运维]角色"
+msgstr "Contact business \"admin\" to add operational permissions for you"
+
+#: pipeline/blueflow/src/components/common/modal/ErrorCode403.vue:28
+#: pipeline/blueflow/static/dist/js/main.js:991
+#: pipeline/blueflow/static/dist/js/main.js:1009
+msgid "前往"
+msgstr "Goto "
+
+#: pipeline/blueflow/src/components/common/modal/ErrorCode403.vue:29
+#: pipeline/blueflow/static/dist/js/main.js:991
+#: pipeline/blueflow/static/dist/js/main.js:1009
+msgid "配置平台"
+msgstr "Conf System "
+
+#: pipeline/blueflow/src/components/common/modal/ErrorCode403.vue:30
+#: pipeline/blueflow/static/dist/js/main.js:991
+#: pipeline/blueflow/static/dist/js/main.js:1009
+msgid "创建属于自己的业务"
+msgstr "to Creating you own business"
+
+#: pipeline/blueflow/src/components/common/modal/ErrorCode500.vue:13
+#: pipeline/blueflow/static/dist/js/main.js:1027
+msgid "应用出现异常"
+msgstr "System error occurred"
+
+#: pipeline/blueflow/src/components/layout/Navigator.vue:38
+#: pipeline/blueflow/static/dist/js/main.js:1051
+msgid "职能化中心"
+msgstr "Functional"
+
+#: pipeline/blueflow/src/components/layout/Navigator.vue:45
+#: pipeline/blueflow/static/dist/js/main.js:1051
+msgid "审计中心"
+msgstr "Audit"
+
+#: pipeline/blueflow/src/components/layout/Navigator.vue:52
+#: pipeline/blueflow/static/dist/js/main.js:1051
+msgid "业务首页"
+msgstr "Home"
+
+#: pipeline/blueflow/src/components/layout/Navigator.vue:57
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:156
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:232
+#: pipeline/blueflow/src/pages/template/TemplateList/index.vue:56
+#: pipeline/blueflow/static/dist/js/main.js:295
+#: pipeline/blueflow/static/dist/js/main.js:613
+#: pipeline/blueflow/static/dist/js/main.js:1051
+msgid "流程模板"
+msgstr "Flows"
+
+#: pipeline/blueflow/src/components/layout/Navigator.vue:62
+#: pipeline/blueflow/src/components/layout/Navigator.vue:137
+#: pipeline/blueflow/src/pages/task/TaskList/index.vue:60
+#: pipeline/blueflow/static/dist/js/main.js:643
+#: pipeline/blueflow/static/dist/js/main.js:1051
+msgid "任务记录"
+msgstr "Tasks"
+
+#: pipeline/blueflow/src/components/layout/Navigator.vue:67
+#: pipeline/blueflow/static/dist/js/main.js:1051
+msgid "业务配置"
+msgstr "Configs"
+
+#: pipeline/blueflow/src/components/layout/Navigator.vue:72
+#: pipeline/blueflow/static/dist/js/main.js:1051
+msgid "轻应用"
+msgstr "Mini-APP"
+
+#: pipeline/blueflow/src/components/layout/Navigator.vue:82
+#: pipeline/blueflow/static/dist/js/main.js:1051
+msgid "帮助文档"
+msgstr "Help"
+
+#: pipeline/blueflow/src/components/layout/Navigator.vue:84
+#: pipeline/blueflow/static/dist/js/main.js:1051
+msgid "logo-zh"
+msgstr "logo-en"
+
+#: pipeline/blueflow/src/constants/index.js:12
+#: pipeline/blueflow/static/dist/js/main.js:25
+msgid "开始节点"
+msgstr "Start Node"
+
+#: pipeline/blueflow/src/constants/index.js:13
+#: pipeline/blueflow/static/dist/js/main.js:25
+msgid "结束节点"
+msgstr "End node"
+
+#: pipeline/blueflow/src/constants/index.js:14
+#: pipeline/blueflow/static/dist/js/main.js:25
+msgid "并行网关"
+msgstr "Parallel Gateway"
+
+#: pipeline/blueflow/src/constants/index.js:15
+#: pipeline/blueflow/static/dist/js/main.js:25
+msgid "分支网关"
+msgstr "Exclusive Gateway"
+
+#: pipeline/blueflow/src/constants/index.js:16
+#: pipeline/blueflow/static/dist/js/main.js:25
+msgid "汇聚网关"
+msgstr "Converge Gateway"
+
+#: pipeline/blueflow/src/constants/index.js:17
+#: pipeline/blueflow/static/dist/js/main.js:25
+msgid "原子节点"
+msgstr "Atom Node"
+
+#: pipeline/blueflow/src/constants/index.js:18
+#: pipeline/blueflow/static/dist/js/main.js:25
+msgid "子流程节点"
+msgstr "Subprocess Node"
+
+#: pipeline/blueflow/src/main.js:55
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "流程名称不能为空"
+msgstr "Flow name cannot be empty"
+
+#: pipeline/blueflow/src/main.js:56
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "流程名称包含非法字符"
+msgstr "Flow name contain invalid character"
+
+#: pipeline/blueflow/src/main.js:57
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "流程名称长度不能超过30个字符"
+msgstr "Length of flow name cannot larger than 30"
+
+#: pipeline/blueflow/src/main.js:60
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "节点名称不能为空"
+msgstr "Node name cannot be empty"
+
+#: pipeline/blueflow/src/main.js:61
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "节点名称包含非法字符"
+msgstr "Node name contains invalid character"
+
+#: pipeline/blueflow/src/main.js:62
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "节点名称长度不能超过20个字符"
+msgstr "Length cannot larger than 20"
+
+#: pipeline/blueflow/src/main.js:65
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "步骤名称包含非法字符"
+msgstr "Stage name contains invalid character"
+
+#: pipeline/blueflow/src/main.js:66
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "步骤名称不能超过20个字符"
+msgstr "Length cannot larger than 20"
+
+#: pipeline/blueflow/src/main.js:69
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "变量名称不能为空"
+msgstr "Variable name cannot be empty"
+
+#: pipeline/blueflow/src/main.js:70
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "变量名称包含非法字符"
+msgstr "Variable name contains invalid character"
+
+#: pipeline/blueflow/src/main.js:71
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "变量名称长度不能超过20个字符"
+msgstr "Length cannot larger than 20"
+
+#: pipeline/blueflow/src/main.js:74
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "变量KEY值不能为空"
+msgstr "KEY cannot be empty"
+
+#: pipeline/blueflow/src/main.js:75
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "变量KEY值不合法"
+msgstr "KEY contains invalid character"
+
+#: pipeline/blueflow/src/main.js:76
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "变量KEY值长度不能超过20个字符"
+msgstr "Length cannot larger than 20"
+
+#: pipeline/blueflow/src/main.js:77
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "变量KEY值已存在"
+msgstr "KEY cannot repeat"
+
+#: pipeline/blueflow/src/main.js:80
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "变量隐藏时默认值不能为空"
+msgstr "Default cannot be empty where variable is hide"
+
+#: pipeline/blueflow/src/main.js:81
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "默认值不满足校验规则"
+msgstr "Default does not match validation"
+
+#: pipeline/blueflow/src/main.js:84
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "校验规则不是合法的正则表达式"
+msgstr "Regex validation invalid"
+
+#: pipeline/blueflow/src/main.js:87
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "任务名称不能为空"
+msgstr "Task name cannot be empty"
+
+#: pipeline/blueflow/src/main.js:88
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "任务名称包含非法字符"
+msgstr "Task name contains invalid character"
+
+#: pipeline/blueflow/src/main.js:89
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "任务名称不能超过50个字符"
+msgstr "Length cannot larger than 50"
+
+#: pipeline/blueflow/src/main.js:92
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "方案名称不能为空"
+msgstr "Schema name cannot be empty"
+
+#: pipeline/blueflow/src/main.js:93
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "方案名称包含非法字符"
+msgstr "Schema name contains invalid character"
+
+#: pipeline/blueflow/src/main.js:94
+#: pipeline/blueflow/static/dist/js/main.js:1496
+msgid "方案名称不能超过30个字符"
+msgstr "Length cannot larger than 30"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskParamFill.vue:96
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskFunctionalization.vue:71
+#: pipeline/blueflow/static/dist/js/main.js:709
+#: pipeline/blueflow/static/dist/js/main.js:925
+msgid "任务信息"
+msgstr "Task Info"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskParamFill.vue:97
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskFunctionalization.vue:72
+#: pipeline/blueflow/src/pages/task/TaskList/index.vue:61
+#: pipeline/blueflow/static/dist/js/main.js:643
+#: pipeline/blueflow/static/dist/js/main.js:709
+#: pipeline/blueflow/static/dist/js/main.js:925
+msgid "任务名称"
+msgstr "Task Name"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskParamFill.vue:98
+#: pipeline/blueflow/src/pages/template/TemplateList/index.vue:59
+#: pipeline/blueflow/static/dist/js/main.js:613
+#: pipeline/blueflow/static/dist/js/main.js:709
+msgid "流程类型"
+msgstr "Flow Type"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskParamFill.vue:99
+#: pipeline/blueflow/static/dist/js/main.js:709
+msgid "默认任务流程"
+msgstr "Default Flow"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskParamFill.vue:100
+#: pipeline/blueflow/static/dist/js/main.js:709
+msgid "职能化任务流程"
+msgstr "Functional Flow"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskParamFill.vue:101
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskFunctionalization.vue:73
+#: pipeline/blueflow/static/dist/js/main.js:709
+#: pipeline/blueflow/static/dist/js/main.js:925
+msgid "参数信息"
+msgstr "Parameters"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskParamFill.vue:102
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskFunctionalization.vue:74
+#: pipeline/blueflow/static/dist/js/main.js:709
+#: pipeline/blueflow/static/dist/js/main.js:925
+msgid "预览"
+msgstr "Preview"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskParamFill.vue:103
+#: pipeline/blueflow/static/dist/js/main.js:709
+msgid "上一步"
+msgstr "Previous"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskParamFill.vue:104
+#: pipeline/blueflow/static/dist/js/main.js:709
+msgid "新建"
+msgstr "New Task"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskParamFill.vue:105
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskFunctionalization.vue:76
+#: pipeline/blueflow/static/dist/js/main.js:709
+#: pipeline/blueflow/static/dist/js/main.js:925
+msgid "任务流程预览"
+msgstr "Preview Task Flow"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskSelectNode.vue:86
+#: pipeline/blueflow/static/dist/js/main.js:691
+msgid "执行方案列表"
+msgstr "Execution Schema"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskSelectNode.vue:87
+#: pipeline/blueflow/static/dist/js/main.js:691
+msgid "新建方案"
+msgstr "New Schema"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskSelectNode.vue:88
+#: pipeline/blueflow/static/dist/js/main.js:691
+msgid "全选"
+msgstr "Select All"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskSelectNode.vue:89
+#: pipeline/blueflow/static/dist/js/main.js:691
+msgid "取消全选"
+msgstr "Cancel All"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskSelectNode.vue:90
+#: pipeline/blueflow/static/dist/js/main.js:691
+msgid "下一步"
+msgstr "Next"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskSelectNode.vue:91
+#: pipeline/blueflow/static/dist/js/main.js:691
+msgid "执行方案保存"
+msgstr "Save Schema"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskSelectNode.vue:92
+#: pipeline/blueflow/static/dist/js/main.js:691
+msgid "方案名称"
+msgstr "Schema Name"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskSelectNode.vue:202
+#: pipeline/blueflow/static/dist/js/main.js:691
+msgid "方案名称已存在"
+msgstr "Schema name cannot repeat"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskSelectNode.vue:236
+#: pipeline/blueflow/static/dist/js/main.js:691
+msgid "方案添加成功"
+msgstr "Schema saved successfully"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/TaskSelectNode.vue:278
+#: pipeline/blueflow/static/dist/js/main.js:691
+msgid "方案删除成功"
+msgstr "Schema deleted successfully"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/index.vue:30
+#: pipeline/blueflow/src/pages/task/TaskExecute/index.vue:32
+#: pipeline/blueflow/static/dist/js/main.js:661
+#: pipeline/blueflow/static/dist/js/main.js:769
+msgid "节点选择"
+msgstr "Node Selection"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/index.vue:35
+#: pipeline/blueflow/src/pages/task/TaskExecute/index.vue:36
+#: pipeline/blueflow/static/dist/js/main.js:661
+#: pipeline/blueflow/static/dist/js/main.js:769
+msgid "参数填写"
+msgstr "Parameter Filling"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/index.vue:40
+#: pipeline/blueflow/src/pages/task/TaskExecute/index.vue:40
+#: pipeline/blueflow/static/dist/js/main.js:661
+#: pipeline/blueflow/static/dist/js/main.js:769
+msgid "任务执行"
+msgstr "Task Execution"
+
+#: pipeline/blueflow/src/pages/task/TaskCreate/index.vue:93
+#: pipeline/blueflow/src/pages/task/TaskExecute/index.vue:75
+#: pipeline/blueflow/static/dist/js/main.js:661
+#: pipeline/blueflow/static/dist/js/main.js:769
+msgid "职能化认领"
+msgstr "Functional Claiming"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ExecuteInfo.vue:123
+#: pipeline/blueflow/static/dist/js/main.js:847
+msgid "执行详情"
+msgstr "Execution Detail"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ExecuteInfo.vue:124
+#: pipeline/blueflow/static/dist/js/main.js:847
+msgid "执行信息"
+msgstr "Execution Info"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ExecuteInfo.vue:125
+#: pipeline/blueflow/static/dist/js/main.js:847
+msgid "开始时间"
+msgstr "Date Started"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ExecuteInfo.vue:126
+#: pipeline/blueflow/static/dist/js/main.js:847
+msgid "结束时间"
+msgstr "Date Finished"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ExecuteInfo.vue:127
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:161
+#: pipeline/blueflow/static/dist/js/main.js:295
+#: pipeline/blueflow/static/dist/js/main.js:847
+msgid "输入参数"
+msgstr "Input Parameters"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ExecuteInfo.vue:128
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:162
+#: pipeline/blueflow/static/dist/js/main.js:295
+#: pipeline/blueflow/static/dist/js/main.js:847
+msgid "输出参数"
+msgstr "Output Parameters"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ExecuteInfo.vue:129
+#: pipeline/blueflow/static/dist/js/main.js:847
+msgid "参数名"
+msgstr "Name"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ExecuteInfo.vue:130
+#: pipeline/blueflow/static/dist/js/main.js:847
+#: pipeline/components/static/components/atoms/sites/community/job/job_execute_task.js:49
+#: pipeline/components/static/components/atoms/sites/enterprise/job/job_execute_task.js:49
+msgid "参数值"
+msgstr "Value"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ExecuteInfo.vue:131
+#: pipeline/blueflow/static/dist/js/main.js:847
+msgid "异常信息"
+msgstr "Exceptions"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ExecuteInfo.vue:132
+#: pipeline/blueflow/static/dist/js/main.js:847
+msgid "重试记录"
+msgstr "Histories"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ExecuteInfo.vue:133
+#: pipeline/blueflow/static/dist/js/main.js:847
+msgid "序号"
+msgstr "Index"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ModifyParams.vue:34
+#: pipeline/blueflow/static/dist/js/main.js:829
+msgid "修改全局参数"
+msgstr "Modify Parameters"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ModifyParams.vue:70
+#: pipeline/blueflow/static/dist/js/main.js:829
+msgid "参数修改成功"
+msgstr "Modified successfully"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ModifyTime.vue:39
+#: pipeline/blueflow/static/dist/js/main.js:883
+msgid "修改定时时间"
+msgstr "Reset Timing"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ModifyTime.vue:141
+#: pipeline/blueflow/static/dist/js/main.js:883
+msgid "修改成功"
+msgstr "Updated successfully"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/RetryNode.vue:39
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskOperation.vue:530
+#: pipeline/blueflow/static/dist/js/main.js:781
+#: pipeline/blueflow/static/dist/js/main.js:865
+msgid "重试"
+msgstr "Retry"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/RetryNode.vue:140
+#: pipeline/blueflow/static/dist/js/main.js:865
+msgid "重试成功"
+msgstr "Retried successfully"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskFunctionalization.vue:75
+#: pipeline/blueflow/static/dist/js/main.js:925
+msgid "认领"
+msgstr "Submitted"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskOperation.vue:128
+#: pipeline/blueflow/static/dist/js/main.js:781
+msgid "执行"
+msgstr "Execution"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskOperation.vue:136
+#: pipeline/blueflow/static/dist/js/main.js:781
+msgid "继续"
+msgstr "Continue"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskOperation.vue:168
+#: pipeline/blueflow/static/dist/js/main.js:781
+msgid "查看参数"
+msgstr "Parameters"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskOperation.vue:169
+#: pipeline/blueflow/static/dist/js/main.js:781
+msgid "修改参数"
+msgstr "Modify Parameters"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskOperation.vue:320
+#: pipeline/blueflow/static/dist/js/main.js:781
+msgid "任务开始执行"
+msgstr "Task started"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskOperation.vue:346
+#: pipeline/blueflow/static/dist/js/main.js:781
+msgid "任务暂停成功"
+msgstr "Task suspended"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskOperation.vue:373
+#: pipeline/blueflow/static/dist/js/main.js:781
+msgid "任务继续成功"
+msgstr "Task Continued"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskOperation.vue:391
+#: pipeline/blueflow/static/dist/js/main.js:781
+msgid "任务撤销成功"
+msgstr "Task Revoked"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskOperation.vue:412
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskOperation.vue:434
+#: pipeline/blueflow/static/dist/js/main.js:781
+msgid "跳过成功"
+msgstr "Skip successfully"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/TaskOperation.vue:456
+#: pipeline/blueflow/static/dist/js/main.js:781
+msgid "继续成功"
+msgstr "Continued successfully"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ViewParams.vue:48
+#: pipeline/blueflow/static/dist/js/main.js:793
+msgid "查看原子参数"
+msgstr "Parameters"
+
+#: pipeline/blueflow/src/pages/task/TaskExecute/ViewParams.vue:76
+#: pipeline/blueflow/static/dist/js/main.js:793
+msgid "请点击原子节点查看参数"
+msgstr "Please click atom node to view parameters"
+
+#: pipeline/blueflow/src/pages/task/TaskList/index.vue:62
+#: pipeline/blueflow/static/dist/js/main.js:643
+msgid "执行开始"
+msgstr "Execution started"
+
+#: pipeline/blueflow/src/pages/task/TaskList/index.vue:63
+#: pipeline/blueflow/static/dist/js/main.js:643
+msgid "执行结束"
+msgstr "Execution finished"
+
+#: pipeline/blueflow/src/pages/task/TaskList/index.vue:64
+#: pipeline/blueflow/static/dist/js/main.js:643
+msgid "任务类型"
+msgstr "Task types"
+
+#: pipeline/blueflow/src/pages/task/TaskList/index.vue:65
+#: pipeline/blueflow/src/pages/template/TemplateList/index.vue:61
+#: pipeline/blueflow/static/dist/js/main.js:613
+#: pipeline/blueflow/static/dist/js/main.js:643
+msgid "创建人"
+msgstr "Create a"
+
+#: pipeline/blueflow/src/pages/task/TaskList/index.vue:66
+#: pipeline/blueflow/static/dist/js/main.js:643
+msgid "执行人"
+msgstr "Executor"
+
+#: pipeline/blueflow/src/pages/task/TaskList/index.vue:67
+#: pipeline/blueflow/static/dist/js/main.js:643
+msgid "状态"
+msgstr "Status"
+
+#: pipeline/blueflow/src/pages/task/TaskParamEdit.vue:103
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:384
+msgid "输入值不满足校验规则"
+msgstr "Input does not match validation"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:179
+#: pipeline/blueflow/static/dist/js/main.js:553
+#: pipeline/components/static/components/atoms/sites/community/job/job_execute_task.js:25
+#: pipeline/components/static/components/atoms/sites/enterprise/job/job_execute_task.js:25
+msgid "全局变量"
+msgstr "Global Variable"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:180
+#: pipeline/blueflow/src/pages/template/TemplateEdit/ReuseVarDialog.vue:74
+#: pipeline/blueflow/static/dist/js/main.js:529
+#: pipeline/blueflow/static/dist/js/main.js:553
+msgid "新建变量"
+msgstr "New"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:181
+#: pipeline/blueflow/static/dist/js/main.js:553
+msgid "来源："
+msgstr "Src: "
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:182
+#: pipeline/blueflow/static/dist/js/main.js:553
+msgid "分两种，输入类型"
+msgstr "here are two kinds, from input"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:183
+#: pipeline/blueflow/static/dist/js/main.js:553
+msgid "或输出类型"
+msgstr "or output"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:184
+#: pipeline/blueflow/static/dist/js/main.js:553
+msgid "。输入类型变量来自用户添加的变量或者原子/子流程节点输入参数引用的变量；输出类型变量来自原子/子流程节点输出参数引用的变量。"
+msgstr ".Input type variables are created by the user or referenced by input parameters of Atom/SubProcess; Output type variables are created by referring output parameters of Atom/SubProcess."
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:185
+#: pipeline/blueflow/static/dist/js/main.js:553
+msgid "显示："
+msgstr "Show: "
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:186
+#: pipeline/blueflow/static/dist/js/main.js:553
+msgid "表示该变量在创建任务填写参数时是否展示给用户，输出类型的变量一定是隐藏的。"
+msgstr "Represent whether the variable is displayed to user when filling parameters, output type variables are hide."
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:187
+#: pipeline/blueflow/static/dist/js/main.js:553
+msgid "输出："
+msgstr "Output: "
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:188
+#: pipeline/blueflow/static/dist/js/main.js:553
+msgid "表示该变量会作为该流程模板的输出参数，在被其他流程模板当做子流程节点时可以引用。"
+msgstr "Represent whether the variable will be one of output parameters of the flow, which can by referred by other flows using this flow as a subprocess."
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:189
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:163
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:165
+#: pipeline/blueflow/static/dist/js/main.js:295
+#: pipeline/blueflow/static/dist/js/main.js:553
+#: pipeline/blueflow/static/dist/js/main.js:565
+msgid "名称"
+msgstr "Name"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:190
+#: pipeline/blueflow/static/dist/js/main.js:553
+msgid "来源"
+msgstr "Src"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:191
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:151
+#: pipeline/blueflow/static/dist/js/main.js:565
+msgid "隐藏"
+msgstr "Hide"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:192
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:150
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:171
+#: pipeline/blueflow/static/dist/js/main.js:553
+#: pipeline/blueflow/static/dist/js/main.js:565
+msgid "显示"
+msgstr "Show"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:194
+#: pipeline/blueflow/static/dist/js/main.js:553
+msgid "变量删除"
+msgstr "Del"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:195
+msgid "输入"
+msgstr "Input"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:196
+#: pipeline/blueflow/static/dist/js/main.js:553
+msgid "输出"
+msgstr "Output"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:197
+msgid "勾选变量作为流程输出参数"
+msgstr "Check to saving as output of flow"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:199
+#: pipeline/blueflow/static/dist/js/main.js:553
+msgid "基础属性"
+msgstr "Attributes"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:200
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:170
+#: pipeline/blueflow/static/dist/js/main.js:553
+#: pipeline/blueflow/static/dist/js/main.js:565
+msgid "类型"
+msgstr "Type"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:201
+#: pipeline/blueflow/static/dist/js/main.js:553
+#: pipeline/components/static/components/atoms/bk/notify.js:7
+msgid "通知方式"
+msgstr "Notification Method"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:202
+#: pipeline/blueflow/static/dist/js/main.js:553
+msgid "超时时长"
+msgstr "Timeout"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:203
+#: pipeline/blueflow/static/dist/js/main.js:553
+#: pipeline/components/static/components/atoms/bk/notify.js:37
+msgid "通知分组"
+msgstr "Notification Group"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:204
+msgid "删除变量"
+msgstr "Delete Variables"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/GlobalVariables.vue:205
+msgid "确认删除该变量？"
+msgstr "Are you sure to delete this variable?"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:155
+#: pipeline/blueflow/static/dist/js/main.js:295
+msgid "基础信息"
+msgstr "Basic Info"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:157
+#: pipeline/blueflow/static/dist/js/main.js:295
+msgid "节点名称"
+msgstr "Name"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:158
+#: pipeline/blueflow/static/dist/js/main.js:295
+msgid "步骤名称"
+msgstr "Stage Name"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:159
+#: pipeline/blueflow/static/dist/js/main.js:295
+msgid "忽略错误"
+msgstr "Ignore Error"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:160
+#: pipeline/blueflow/static/dist/js/main.js:295
+msgid "是否可选"
+msgstr "Optional"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:164
+#: pipeline/blueflow/static/dist/js/main.js:295
+msgid "引用"
+msgstr "Referred"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:232
+#: pipeline/blueflow/static/dist/js/main.js:295
+msgid "原子类型"
+msgstr "Atom"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/NodeConfig.vue:791
+#: pipeline/blueflow/static/dist/js/main.js:295
+msgid "变量KEY已存在"
+msgstr "KEY cannot repeat"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/ReuseVarDialog.vue:73
+#: pipeline/blueflow/static/dist/js/main.js:529
+msgid "复用变量"
+msgstr "Reuse Variable"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/ReuseVarDialog.vue:75
+#: pipeline/blueflow/static/dist/js/main.js:529
+msgid "变量名称"
+msgstr "Variable Name"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/ReuseVarDialog.vue:76
+#: pipeline/blueflow/static/dist/js/main.js:529
+msgid "变量KEY"
+msgstr "Variable KEY"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/ReuseVarDialog.vue:104
+#: pipeline/blueflow/static/dist/js/main.js:529
+msgid "变量KEY已存在，请创建新变量"
+msgstr "KEY repeated, please use new variable"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/ReuseVarDialog.vue:106
+#: pipeline/blueflow/static/dist/js/main.js:529
+msgid "是否复用变量"
+msgstr "Whether Reuse Variable"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:143
+#: pipeline/blueflow/static/dist/js/main.js:565
+msgid "输入框"
+msgstr "Input"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:144
+#: pipeline/blueflow/static/dist/js/main.js:565
+msgid "文本框"
+msgstr "Textarea"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:145
+#: pipeline/blueflow/static/dist/js/main.js:565
+msgid "日期时间"
+msgstr "Datetime"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:146
+#: pipeline/blueflow/static/dist/js/main.js:565
+msgid "整数"
+msgstr "Integer"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:147
+#: pipeline/blueflow/static/dist/js/main.js:565
+msgid "IP选择器"
+msgstr "IP Picker"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:166
+#: pipeline/blueflow/static/dist/js/main.js:565
+msgid "说明"
+msgstr "Description"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:167
+#: pipeline/blueflow/static/dist/js/main.js:565
+msgid "默认值"
+msgstr "Default"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:168
+#: pipeline/blueflow/static/dist/js/main.js:565
+msgid "编辑表格"
+msgstr "Edit Table"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:169
+#: pipeline/blueflow/static/dist/js/main.js:565
+msgid "校验规则"
+msgstr "Validation"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEdit.vue:237
+#: pipeline/blueflow/static/dist/js/main.js:565
+msgid "组件"
+msgstr "Component"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/VariableEditDialog.vue:34
+#: pipeline/blueflow/static/dist/js/main.js:577
+msgid "编辑变量"
+msgstr "Edit"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/index.vue:73
+msgid "离开页面"
+msgstr "Leave"
+
+#: pipeline/blueflow/src/pages/template/TemplateEdit/index.vue:74
+msgid "系统可能不会保存您所做的更改，确认离开？"
+msgstr "System may have not saved you change, are you going to leave?"
+
+#: pipeline/blueflow/src/pages/template/TemplateList/index.vue:57
+#: pipeline/blueflow/static/dist/js/main.js:613
+msgid "新建模板"
+msgstr "New Flow"
+
+#: pipeline/blueflow/src/pages/template/TemplateList/index.vue:58
+#: pipeline/blueflow/static/dist/js/main.js:613
+msgid "流程名称"
+msgstr "Name"
+
+#: pipeline/blueflow/src/pages/template/TemplateList/index.vue:60
+#: pipeline/blueflow/static/dist/js/main.js:613
+msgid "更新时间"
+msgstr "Date Updated"
+
+#: pipeline/blueflow/src/utils/errorHandler.js:13
+#: pipeline/blueflow/static/dist/js/main.js:13
+msgid "当前访问的页面不存在"
+msgstr "Page not found"
+
+#: pipeline/blueflow/src/utils/errorHandler.js:18
+#: pipeline/blueflow/static/dist/js/main.js:13
+msgid "sorry，您没有访问权限!"
+msgstr "sorry, you have no access permissions!"
+
+#: pipeline/blueflow/src/utils/errorHandler.js:23
+#: pipeline/blueflow/static/dist/js/main.js:13
+msgid "Sorry，您的权限不足!"
+msgstr "Sorry, you have no permissions"
+
+#: pipeline/blueflow/src/utils/validatePipeline.js:86
+#: pipeline/blueflow/static/dist/js/main.js:1702
+msgid "只能添加输入连线"
+msgstr " can add input flow only"
+
+#: pipeline/blueflow/src/utils/validatePipeline.js:91
+#: pipeline/blueflow/static/dist/js/main.js:1702
+msgid "只能添加输出连线"
+msgstr " can add output flow only"
+
+#: pipeline/blueflow/src/utils/validatePipeline.js:96
+#: pipeline/blueflow/static/dist/js/main.js:1702
+msgid "不能连接"
+msgstr " cannot be connected to "
+
+#: pipeline/blueflow/src/utils/validatePipeline.js:115
+#: pipeline/blueflow/static/dist/js/main.js:1702
+msgid "相同节点不能回连"
+msgstr "Same node cannot be connected to self"
+
+#: pipeline/blueflow/src/utils/validatePipeline.js:120
+#: pipeline/blueflow/static/dist/js/main.js:1702
+msgid "重复添加连线"
+msgstr " cannot add repeated flows"
+
+#: pipeline/blueflow/src/utils/validatePipeline.js:124
+#: pipeline/blueflow/src/utils/validatePipeline.js:128
+#: pipeline/blueflow/static/dist/js/main.js:1702
+msgid "已达到"
+msgstr " has reached "
+
+#: pipeline/blueflow/src/utils/validatePipeline.js:124
+#: pipeline/blueflow/static/dist/js/main.js:1702
+msgid "最大输出连线条数"
+msgstr " max number of output flows"
+
+#: pipeline/blueflow/src/utils/validatePipeline.js:128
+#: pipeline/blueflow/static/dist/js/main.js:1702
+msgid "最大输入连线条数"
+msgstr " max number of input flows"
+
+#: pipeline/blueflow/src/utils/validatePipeline.js:139
+#: pipeline/blueflow/static/dist/js/main.js:1702
+msgid "在模板中只能添加一个"
+msgstr " can add just one in a flow template"
+
+#: pipeline/blueflow/src/utils/validatePipeline.js:178
+#: pipeline/blueflow/src/utils/validatePipeline.js:182
+#: pipeline/blueflow/static/dist/js/main.js:1702
+msgid "至少需要"
+msgstr " need as least "
+
+#: pipeline/blueflow/src/utils/validatePipeline.js:178
+#: pipeline/blueflow/static/dist/js/main.js:1702
+msgid "条输入连线"
+msgstr " input flows"
+
+#: pipeline/blueflow/src/utils/validatePipeline.js:182
+#: pipeline/blueflow/static/dist/js/main.js:1702
+msgid "条输出连线"
+msgstr " output flows"
+
+#: pipeline/blueflow/src/utils/validatePipeline.js:193
+#: pipeline/blueflow/static/dist/js/main.js:1702
+msgid "请添加任务节点"
+msgstr "Please add a task node"
+
+#: pipeline/blueflow/src/utils/validatePipeline.js:198
+msgid "并行网关、分支网关个数和汇聚网关个数必须一致，并且必须配对使用"
+msgstr "The sum of Parallel and Exclusive Gateway must be same with sum of Converge Gateway, and must be paired"
+
+#: pipeline/blueflow/static/dist/js/main.js:127
+msgid "没找到页面！"
+msgstr "Page not found!"
+
+#: pipeline/blueflow/static/dist/js/main.js:157
+msgid "确认要离开"
+msgstr "Confirm To Leave"
+
+#: pipeline/blueflow/static/dist/js/main.js:157
+msgid "系统可能不会保存您所做的更改"
+msgstr "System may have not saved you change"
+
+#: pipeline/blueflow/static/dist/js/main.js:157
+msgid "任务节点参数错误，请点击错误节点查看详情"
+msgstr "Task node parameters are invalid, please click error node to view details"
+
+#: pipeline/blueflow/static/dist/js/main.js:781
+msgid "跳过"
+msgstr "Skip"
+
+#: pipeline/blueflow/static/dist/js/main.js:781
+msgid "修改时间"
+msgstr "Reset timing"
+
+#: pipeline/blueflow/static/dist/js/main.js:901
+msgid "请选择执行分支"
+msgstr "Please select a execution branch"
+
+#: pipeline/blueflow/static/dist/js/main.js:901
+msgid "可选执行分支"
+msgstr "Optional Branches"
+
+#: pipeline/blueflow/static/dist/js/main.js:991
+msgid "联系业务运维为您添加需要操作的流程模板的权限"
+msgstr "Contact business \"admin\" to add operational permissions for you"
+
+#: pipeline/blueflow/static/dist/js/main.js:991
+msgid "联系业务运维为您添加"
+msgstr "Contact business maintainers to add "
+
+#: pipeline/blueflow/static/dist/js/main.js:991
+msgid "对应的业务角色，如运维人员、开发人员、产品人员、测试人员"
+msgstr "business roles like maintainers, productors, developers, testers"
+
+#: pipeline/blueflow/static/dist/js/main.js:1702
+msgid "网关数量不匹配"
+msgstr "Gateways number does not match"
+
+#: pipeline/blueflow/static/dist/js/vendors.js:318
+msgid "rules must be either a string or an object."
+msgstr "rules must be either a string or an object."
+
+#: pipeline/blueflow/static/dist/js/vendors.js:318
+msgid "Cannot set locale from the validator when using vue-i18n, use i18n.locale setter instead"
+msgstr "Cannot set locale from the validator when using vue-i18n, use i18n.locale setter instead"
+
+#: pipeline/blueflow/static/dist/js/vendors.js:318
+msgid "The plugin must be a callable function"
+msgstr "The plugin must be a callable function"
+
+#: pipeline/components/static/components/atoms/bk/http.js:7
+msgid "请求方式"
+msgstr "Method"
+
+#: pipeline/components/static/components/atoms/bk/notify.js:10
+msgid "微信"
+msgstr "Wechat"
+
+#: pipeline/components/static/components/atoms/bk/notify.js:11
+msgid "邮件"
+msgstr "Email"
+
+#: pipeline/components/static/components/atoms/bk/notify.js:12
+msgid "短信"
+msgstr "SMS"
+
+#: pipeline/components/static/components/atoms/bk/notify.js:25
+msgid "请至少选择一种通知方式"
+msgstr "Please select one notify method at lease"
+
+#: pipeline/components/static/components/atoms/bk/notify.js:40
+msgid "运维人员"
+msgstr "OPS"
+
+#: pipeline/components/static/components/atoms/bk/notify.js:41
+msgid "产品人员"
+msgstr "PM"
+
+#: pipeline/components/static/components/atoms/bk/notify.js:42
+msgid "开发人员"
+msgstr "Developer"
+
+#: pipeline/components/static/components/atoms/bk/notify.js:43
+msgid "测试人员"
+msgstr "Tester"
+
+#: pipeline/components/static/components/atoms/bk/notify.js:56
+msgid "请至少选择一个通知分组"
+msgstr "Please select one receiver group ay lease"
+
+#: pipeline/components/static/components/atoms/bk/notify.js:68
+msgid "附加人员"
+msgstr "More Receivers"
+
+#: pipeline/components/static/components/atoms/bk/notify.js:69
+msgid "多个用 , 分隔"
+msgstr "are separated by [,]"
+
+#: pipeline/components/static/components/atoms/bk/notify.js:77
+msgid "通知主题"
+msgstr "Title"
+
+#: pipeline/components/static/components/atoms/bk/notify.js:90
+msgid "通知内容"
+msgstr "Content"
+
+#: pipeline/components/static/components/atoms/bk/timer.js:7
+msgid "定时时间"
+msgstr "Timing"
+
+#: pipeline/components/static/components/atoms/bk/timer.js:8
+msgid "秒(s) 或 时间(%Y-%m-%d %H:%M:%S)"
+msgstr "Seconds(s) or Datetime(%Y-%m-%d %H:%M:%S)"
+
+#: pipeline/components/static/components/atoms/bk/timer.js:16
+msgid "请填写秒(s)且不超过8位数或时间(%Y-%m-%d %H:%M:%S)"
+msgstr "Fill in seconds(s) or datetime(%Y-%m-%d %H:%M:%S)"
+
+#: pipeline/components/static/components/atoms/job/job_fast_execute_script.js:7
+msgid "脚本类型"
+msgstr "Script Type"
+
+#: pipeline/components/static/components/atoms/job/job_fast_execute_script.js:28
+msgid "脚本内容"
+msgstr "Script Content"
+
+#: pipeline/components/static/components/atoms/job/job_fast_execute_script.js:29
+msgid "填写执行脚本内容"
+msgstr "Please enter script content"
+
+#: pipeline/components/static/components/atoms/job/job_fast_execute_script.js:42
+msgid "脚本参数"
+msgstr "Script Parameter"
+
+#: pipeline/components/static/components/atoms/job/job_fast_execute_script.js:43
+msgid "可为空"
+msgstr "Empty is valid"
+
+#: pipeline/components/static/components/atoms/job/job_fast_execute_script.js:51
+msgid "超时时间"
+msgstr "Timeout(s) "
+
+#: pipeline/components/static/components/atoms/job/job_fast_execute_script.js:52
+msgid "单位为秒，可为空，默认1000"
+msgstr "The unit is second, empty is valid, defaulted as 1000"
+
+#: pipeline/components/static/components/atoms/job/job_fast_execute_script.js:64
+msgid "请输入数字"
+msgstr "Please enter a number"
+
+#: pipeline/components/static/components/atoms/job/job_fast_execute_script.js:76
+#: pipeline/components/static/components/atoms/job/job_fast_push_file.js:66
+#: pipeline/components/static/components/atoms/job/job_push_local_files.js:36
+msgid "目标IP"
+msgstr "Target IP"
+
+#: pipeline/components/static/components/atoms/job/job_fast_execute_script.js:77
+#: pipeline/components/static/components/atoms/job/job_fast_push_file.js:67
+#: pipeline/components/static/components/atoms/job/job_push_local_files.js:37
+#: pipeline/variables/static/variables/var_ip_picker.js:92
+#: pipeline/variables/static/variables/var_ip_picker.js:120
+msgid "IP必须填写【集群名称|模块名称|IP】、【云区域ID:IP】或者【IP】格式之一，多个用换行符分隔；【IP】格式需要保证所填写的内网IP在配置平台(CMDB)的该业务中是唯一的"
+msgstr "IP format must be one of [set name|module name|IP], [platform ID:IP] or [IP], multiple IP are separated by Line breaks;[IP] format must ensure the input LAN IP are unique in the business on Configuration System"
+
+#: pipeline/components/static/components/atoms/job/job_fast_execute_script.js:90
+#: pipeline/components/static/components/atoms/job/job_fast_push_file.js:80
+#: pipeline/components/static/components/atoms/job/job_push_local_files.js:45
+msgid "目标账户"
+msgstr "Target Account"
+
+#: pipeline/components/static/components/atoms/job/job_fast_execute_script.js:91
+#: pipeline/components/static/components/atoms/job/job_fast_push_file.js:81
+#: pipeline/components/static/components/atoms/job/job_push_local_files.js:46
+msgid "请输入在蓝鲸作业平台上注册的账户名"
+msgstr "Please enter the account name"
+
+#: pipeline/components/static/components/atoms/job/job_fast_push_file.js:7
+msgid "源文件"
+msgstr "Source File"
+
+#: pipeline/components/static/components/atoms/job/job_fast_push_file.js:13
+#: pipeline/variables/static/variables/var_ip_picker.js:49
+#: pipeline/variables/static/variables/var_ip_picker.js:68
+#: pipeline/variables/static/variables/var_ip_picker.js:74
+#: pipeline/variables/static/variables/var_ip_picker.js:91
+#: pipeline/variables/static/variables/var_ip_picker.js:119
+msgid "IP"
+msgstr "IP"
+
+#: pipeline/components/static/components/atoms/job/job_fast_push_file.js:27
+msgid "文件路径"
+msgstr "File"
+
+#: pipeline/components/static/components/atoms/job/job_fast_push_file.js:41
+msgid "执行账户"
+msgstr "Account"
+
+#: pipeline/components/static/components/atoms/job/job_fast_push_file.js:94
+#: pipeline/components/static/components/atoms/job/job_push_local_files.js:54
+msgid "目标路径"
+msgstr "Target Path"
+
+#: pipeline/components/static/components/atoms/job/job_fast_push_file.js:95
+#: pipeline/components/static/components/atoms/job/job_push_local_files.js:55
+msgid "请输入绝对路径"
+msgstr "Please enter absolute path"
+
+#: pipeline/components/static/components/atoms/job/job_push_local_files.js:7
+msgid "本地文件"
+msgstr "Local Files"
+
+#: pipeline/components/static/components/atoms/job/job_push_local_files.js:10
+msgid "文件名不能包含中文和特殊字符且大小不能超过500M"
+msgstr "File's name cannot contain chinese character and size cannot larger than 500M"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_batch_delete_set.js:7
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_empty_set_hosts.js:7
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_set.js:7
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_set_service_status.js:7
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_batch_delete_set.js:7
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_empty_set_hosts.js:7
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_set.js:7
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_set_service_status.js:7
+msgid "集群"
+msgstr "Set"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_create_set.js:7
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_create_set.js:7
+msgid "父节点"
+msgstr "Parent Node"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_replace_fault_machine.js:7
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_replace_fault_machine.js:7
+msgid "主机详情"
+msgstr "Host Detail"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_replace_fault_machine.js:8
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_replace_fault_machine.js:8
+msgid "请至少添加一条数据"
+msgstr "Please add one at least"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_replace_fault_machine.js:14
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_replace_fault_machine.js:14
+msgid "故障机IP"
+msgstr "Fault Host IP"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_replace_fault_machine.js:27
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_replace_fault_machine.js:27
+msgid "替换机IP"
+msgstr "Replacement Host IP"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_transfer_host_module.js:7
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_host.js:7
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_transfer_host_module.js:7
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_host.js:7
+msgid "主机内网IP"
+msgstr "Host Inner IP"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_transfer_host_module.js:8
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_host.js:8
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_transfer_host_module.js:8
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_host.js:8
+msgid "请输入主机内网IP，多个用换行符分隔"
+msgstr "Please enter host inner IP, multiple are separated by Line breaks"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_transfer_host_module.js:21
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_module.js:7
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_transfer_host_module.js:21
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_module.js:7
+msgid "模块"
+msgstr "Module"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_transfer_host_module.js:40
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_transfer_host_module.js:40
+msgid "转移方式"
+msgstr "Transfer Type"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_transfer_host_module.js:43
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_transfer_host_module.js:43
+msgid "覆盖"
+msgstr "cover"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_transfer_host_module.js:44
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_transfer_host_module.js:44
+msgid "追加"
+msgstr "increment"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_host.js:21
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_host.js:21
+msgid "主机属性"
+msgstr "Host Attribute"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_host.js:22
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_host.js:22
+msgid "请选择需要更新的主机属性"
+msgstr "Please select a host attribute to update"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_host.js:40
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_module.js:45
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_set.js:45
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_host.js:40
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_module.js:45
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_set.js:45
+msgid "属性值"
+msgstr "Attribute Value"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_host.js:41
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_module.js:46
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_set.js:46
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_host.js:41
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_module.js:46
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_set.js:46
+msgid "请输入更新后的属性值"
+msgstr "Please enter a new attribute value"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_module.js:26
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_module.js:26
+msgid "模块属性"
+msgstr "Module Attribute"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_module.js:27
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_module.js:27
+msgid "请选择需要更新的模块属性"
+msgstr "Please select a module attribute to update"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_set.js:26
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_set.js:26
+msgid "集群属性"
+msgstr "Set Attribute"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_set.js:27
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_set.js:27
+msgid "请选择需要更新的集群属性"
+msgstr "Please select a set attribute to update"
+
+#: pipeline/components/static/components/atoms/sites/community/cc/cc_update_set_service_status.js:26
+#: pipeline/components/static/components/atoms/sites/enterprise/cc/cc_update_set_service_status.js:26
+msgid "服务状态"
+msgstr "Service Status"
+
+#: pipeline/components/static/components/atoms/sites/community/job/job_execute_task.js:7
+#: pipeline/components/static/components/atoms/sites/enterprise/job/job_execute_task.js:7
+msgid "作业模板"
+msgstr "Job"
+
+#: pipeline/components/static/components/atoms/sites/community/job/job_execute_task.js:28
+#: pipeline/components/static/components/atoms/sites/enterprise/job/job_execute_task.js:28
+msgid "没选中作业模板或当前作业模板全局变量为空"
+msgstr "No job selected or global variable are empty"
+
+#: pipeline/components/static/components/atoms/sites/community/job/job_execute_task.js:37
+#: pipeline/components/static/components/atoms/sites/enterprise/job/job_execute_task.js:37
+msgid "参数名称"
+msgstr "Name"
+
+#: pipeline/components/static/components/atoms/sites/community/job/job_execute_task.js:42
+#: pipeline/components/static/components/atoms/sites/enterprise/job/job_execute_task.js:42
+msgid "参数类型"
+msgstr "Type"
+
+#: pipeline/variables/static/variables/var_ip_picker.js:14
+msgid "填参方式"
+msgstr "Method"
+
+#: pipeline/variables/static/variables/var_ip_picker.js:16
+msgid "自定义输入"
+msgstr "Custom Enter"
+
+#: pipeline/variables/static/variables/var_ip_picker.js:17
+msgid "选择集群和模块自动获取"
+msgstr "Select Sets and Modules"
+
+#: pipeline/variables/static/variables/var_ip_picker.js:18
+msgid "输入集群名和模块名自动获取"
+msgstr "Enter Sets and Modules"
+
+#: pipeline/variables/static/variables/var_ip_picker.js:47
+msgid "值类型"
+msgstr "Value Type"
+
+#: pipeline/variables/static/variables/var_ip_picker.js:50
+#: pipeline/variables/static/variables/var_ip_picker.js:69
+#: pipeline/variables/static/variables/var_ip_picker.js:75
+#: pipeline/variables/static/variables/var_ip_picker.js:113
+msgid "DNS"
+msgstr "DNS"
+
+#: pipeline/variables/static/variables/var_ip_picker.js:51
+#: pipeline/variables/static/variables/var_ip_picker.js:70
+#: pipeline/variables/static/variables/var_ip_picker.js:116
+msgid "服ID"
+msgstr "Region ID"
+
+#: pipeline/variables/static/variables/var_ip_picker.js:114
+msgid "DNS必须填【IP#端口】格式或者直接填DNS，多个请用换行分隔"
+msgstr "DNS format must be one of [IP#port] or domain, multiple are separated by line breaks"
+
+#: pipeline/variables/static/variables/var_ip_picker.js:117
+msgid "服ID用于GCS原子自动获取域名，多个请用空格分隔"
+msgstr "Region ID is used for GCS atoms getting domain, multiple are separated by space"
+
+#: pipeline/variables/static/variables/var_ip_picker.js:131
+#: pipeline/variables/static/variables/var_ip_picker.js:209
+msgid "集群名称"
+msgstr "Set Name"
+
+#: pipeline/variables/static/variables/var_ip_picker.js:156
+#: pipeline/variables/static/variables/var_ip_picker.js:195
+msgid "请求后台接口异常:"
+msgstr "Server API error:"
+
+#: pipeline/variables/static/variables/var_ip_picker.js:170
+#: pipeline/variables/static/variables/var_ip_picker.js:232
+msgid "模块名称"
+msgstr "Module Name"
+
+#: pipeline/variables/static/variables/var_ip_picker.js:211
+msgid "多个用,分隔，all代表所有集群"
+msgstr "Multiple are separated by [,], 'all' represent all sets"
+
+#: pipeline/variables/static/variables/var_ip_picker.js:234
+msgid "多个用,分隔，all代表所有模块"
+msgstr "Multiple are separated by [,], 'all' represent all modules"
+
+#~ msgid "删除删除"
+#~ msgstr "Del"
+
+#, fuzzy
+#~| msgid "logo-zh"
+#~ msgid "logo-zh.svg"
+#~ msgstr "logo-en"
+
+#~ msgid "节点_"
+#~ msgstr "Node_"
+
+#~ msgid "已完成"
+#~ msgstr "Finished"
+
+#~ msgid "参数校验失败"
+#~ msgstr "Parameter check failure"
+
+#~ msgid "错误信息"
+#~ msgstr "Error information"
+
+#~ msgid "校验开关"
+#~ msgstr "Check Switch"
+
+#~ msgid "事件模式，全局或局部"
+#~ msgstr "Event mode, Global or Local"
+
+#~ msgid "正则校验失败!"
+#~ msgstr "Regular check failed"
+
+#~ msgid "请选择"
+#~ msgstr "Please select"
+
+#~ msgid "文件名"
+#~ msgstr "File Name"
+
+#~ msgid "文件大小"
+#~ msgstr "File Size"
+
+#~ msgid "个字符"
+#~ msgstr " "
+
+#~ msgid "名称不能包含<>,.;~!@#^&*￥'\"特殊字符"
+#~ msgstr "Input cannot contain special character like <>,.;~!@#^&*￥'\""
+
+#~ msgid "循环次数"
+#~ msgstr "Circle Number"
+
+#~ msgid "请选择原子类型"
+#~ msgstr "Please select atom type"
+
+#~ msgid "必填项！"
+#~ msgstr "Required!"
+
+#~ msgid "新增变量"
+#~ msgstr "Add"
+
+#~ msgid "KEY值在全局变量中不能重复"
+#~ msgstr "KEY cannot repeat in Global Variable"
+
+#~ msgid "正则表达式不合法!"
+#~ msgstr "Invalid regular expression"
+
+#~ msgid "起始节点"
+#~ msgstr "Start"
+
+#~ msgid "子流程"
+#~ msgstr "SubProcess"
+
+#~ msgid "原子"
+#~ msgstr "Atom"
+
+#~ msgid "3.任务执行"
+#~ msgstr "3.Task Execution"
+
+#~ msgid "4.任务执行"
+#~ msgstr "4.Task Execution"
+
+#~ msgid "请输入任务名称"
+#~ msgstr "Please enter task name"
+
+#~ msgid "无参数"
+#~ msgstr "No Parameters"
+
+#~ msgid "<span>预览</span>"
+#~ msgstr "<span>Preview</span>"
+
+#~ msgid "<span>认领</span>"
+#~ msgstr "<span>Claim</span>"
+
+#~ msgid "节点参数"
+#~ msgstr "Parameters"
+
+#~ msgid "子流程列表"
+#~ msgstr "SubProcess"
+
+#~ msgid "已勾选的步骤中没有需要填写的参数"
+#~ msgstr "No parameters to be filled in"
+
+#~ msgid "保存方案"
+#~ msgstr "Save Schema"
+
+#~ msgid "<span>保存方案</span>"
+#~ msgstr "<span>Save Schema</span>"
+
+#~ msgid "请输入方案名称"
+#~ msgstr "Please enter schema name"
+
+#~ msgid "方案保存成功"
+#~ msgstr "Schema saved successfully"
+
+#~ msgid "使用新变量"
+#~ msgstr "Use New Variable"
+
+#~ msgid "请输入变量名称"
+#~ msgstr "Please enter variable name"
+
+#~ msgid "请输入变量KEY"
+#~ msgstr "Please enter KEY"
+
+#~ msgid "阻塞"
+#~ msgstr "BLocked"
+
+#~ msgid "至少要有"
+#~ msgstr "must have at least "
+
+#~ msgid "个输出节点; "
+#~ msgstr " output nodes"
+
+#~ msgid "最多连接"
+#~ msgstr "must connect at most "
+
+#~ msgid "个输入节点; "
+#~ msgstr " input nodes"
+
+#~ msgid "不能与"
+#~ msgstr " cannot connect with"
+
+#~ msgid "相连; "
+#~ msgstr ";"
+
+#~ msgid "参数校验失败，请检查！"
+#~ msgstr "parameters check failed!"
+
+#~ msgid "请选择【"
+#~ msgstr "Please select ["
+
+#~ msgid "】原子类型！"
+#~ msgstr "] atom type"
+
+#~ msgid "】子流程类型！"
+#~ msgstr "Flow Type"
+
+#~ msgid "节点【"
+#~ msgstr "Node ["
+
+#~ msgid "】参数校验失败，请检查！"
+#~ msgstr "] parameters check failed!"
+
+#~ msgid "模板不能为空！"
+#~ msgstr "Flow content cannot be empty"
+
+#~ msgid "模板修改成功"
+#~ msgstr "Updated successfully"
+
+#~ msgid "模板保存成功"
+#~ msgstr "Saved successfully"
+
+#~ msgid "实例已启动执行，不能修改"
+#~ msgstr "Task is started, which cannot by modified"
+
+#~ msgid "未添加参数"
+#~ msgstr "No data found"
+
+#~ msgid "修改参数成功"
+#~ msgstr "Modify Parameters successfully"
+
+#~ msgid "执行成功"
+#~ msgstr "Executed successfully"
+
+#~ msgid "成功"
+#~ msgstr "Success"
+
+#~ msgid "执行失败"
+#~ msgstr "Failed"
+
+#~ msgid "已暂停"
+#~ msgstr "Suspended"
+
+#~ msgid "已撤销"
+#~ msgstr "Revoked"
+
+#~ msgid "请输入模板名称"
+#~ msgstr "Please enter the flow name"
+
+#~ msgid "<span>返回列表</span>"
+#~ msgstr "<span>Return</span>"
+
+#~ msgid "<span>取消全选</span>"
+#~ msgstr "<span>Cancel All</span>"
+
+#~ msgid "<span>全选</span>"
+#~ msgstr "<span>Select All</span>"
+
+#~ msgid "节点_1"
+#~ msgstr "Step_1"
+
+#~ msgid "start"
+#~ msgstr "start"
+
+#~ msgid "end"
+#~ msgstr "end"
+
+#~ msgid "输入校验失败"
+#~ msgstr "Input check failed"
+
+#~ msgid "待执行"
+#~ msgstr "Created"
+
+#~ msgid "已终止"
+#~ msgstr "Terminated"
+
+#~ msgid "任务已终止"
+#~ msgstr "Task revoked"
+
+#~ msgid "任务待执行"
+#~ msgstr "Task to be executed"
+
+#~ msgid "请输入选择人员"
+#~ msgstr "Please select personnel"
+
+#~ msgid "<span>执行</span>"
+#~ msgstr "<span>Start</span>"
+
+#~ msgid "<span>暂停</span>"
+#~ msgstr "<span>Suspend</span>"
+
+#~ msgid "<span>继续</span>"
+#~ msgstr "<span>Continue</span>"
+
+#~ msgid "<span>撤销</span>"
+#~ msgstr "<span>Revoke</span>"
+
+#~ msgid "子流程已暂停"
+#~ msgstr "SubProcess Suspended"
+
+#~ msgid "认领成功！"
+#~ msgstr "Claim Success!"
+
+#~ msgid "实例参数保存成功"
+#~ msgstr "Task parameters saved successfully"
+
+#~ msgid "输入脚本执行参数"
+#~ msgstr "please enter script parameter"
+
+#~ msgid "输入脚本执行超时时间，单位为秒"
+#~ msgstr "Please enter timeout, with unit of second"
+
+#~ msgid "<span>上一步</span>"
+#~ msgstr "<span>Previous</span>"
+
+#~ msgid "<span>下一步</span>"
+#~ msgstr "<span>Next</span>"
+
+#~ msgid "新增按钮"
+#~ msgstr "Add"

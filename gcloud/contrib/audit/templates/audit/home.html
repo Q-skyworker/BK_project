@@ -1,0 +1,64 @@
+<!-- NOTE：这个页面由标准运维任务记录页面和任意轻应用的任务记录页面公用 -->
+<%inherit file="/temp/base.html"/>
+<%block name='head'>
+${parent.head()}
+
+<link href="${STATIC_URL}css/configuration.css?v=${STATIC_VERSION}" rel="stylesheet" type="text/css" >
+<link href="${STATIC_URL}assets/datatables-1.10.7/dataTables.bootstrap.css?v=${STATIC_VERSION}" rel="stylesheet" type="text/css" >
+</%block>
+
+<%block name='content'>
+<section>
+    <div class="standardCon work" id="audit_center">
+        <!-- 模板列表 开始 -->
+        <div class="workList" style="position: relative;">
+            <h3 style="color: #333">${_(u'任务记录')}</h3>
+
+            <div class="king-block mb0 pb10 pt15">
+                <div class="king-block-content">
+                    <table id="audit_datatables" class="table table-bordered" style="table-layout: fixed;">
+                        <colgroup>
+                            <col width="100px" />
+                            <col width="100px" />
+                            <col />
+                            <col />
+                            <col />
+                            <col width="120px" />
+                            <col width="100px" />
+                            <col width="100px" />
+                            <col width="100px" />
+                            <col width="100px" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>${_(u'所属业务')}</th>
+                                <th><div>${_(u'任务名称')}</div></th>
+                                <th>${_(u'执行开始')}</th>
+                                <th>${_(u'执行结束')}</th>
+                                <th v-if="!(app_maker_data == 'app_maker')">${_(u'任务类型')}</th>
+                                <th>${_(u'创建人')}</th>
+                                <th>${_(u'执行人')}</th>
+                                <th>${_(u'状态')}</th>
+                                <th v-if="!(app_maker_data == 'app_maker')" >${_(u'操作')}</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- 模板列表 结束 -->
+    </div>
+</section>
+</%block>
+<script src="${STATIC_URL}assets/datatables-1.10.7/jquery.dataTables.min.js?v=${STATIC_VERSION}"></script>
+<!--<script src="${STATIC_URL}assets/datatables-1.10.7/jquery.dataTables.js"></script>-->
+<script src="${STATIC_URL}assets/datatables-1.10.7/dataTables.bootstrap.min.js?v=${STATIC_VERSION}"></script>
+
+<script type="text/javascript">
+    var VIEW_MODE = 'app';
+</script>
+<script src="${STATIC_URL}moment/moment.min.js?v=${STATIC_VERSION}"></script>
+<script src="${STATIC_URL}moment/moment-timezone.js?v=${STATIC_VERSION}"></script>
+<script src="${STATIC_URL}moment/moment-timezone-with-data.js?v=${STATIC_VERSION}"></script>
+<script src="${STATIC_URL}audit/js/home.js?v=${STATIC_VERSION}"></script>

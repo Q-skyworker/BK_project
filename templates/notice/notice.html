@@ -1,0 +1,64 @@
+<%inherit file="/base.html"/>
+
+<%block name='head'>
+	<title>蓝鲸应用开发框架</title>
+	${parent.head()}
+	
+</%block>
+
+<%block name="content">
+<link href="${STATIC_URL}css/notification.css" rel="stylesheet">
+<div>
+	<div id="notification" class="notificationCenterPage">
+		% if notices:
+			% for n in notices:
+				<% n_message = n.get('message', {}) %>
+				<dl class="notify_item ${'readed' if n['is_read'] else 'odd'}" notify_id="${n['id']}">
+					<dt>
+						<a class="notify_title_wrapper" href="javascript:;">
+							<span class="notify_status">
+								<span class="notify_time">
+									${n.get('starttime')}
+								</span>
+								<i class="arrow"></i>
+							</span>
+							<span class="notify_title">
+								<i class="dot">●</i>
+								${n_message.get('title')}
+							</span>
+						</a>
+					</dt>
+					<dd class="noticenone">
+						${n_message.get('content')}
+					</dd>
+				</dl>
+			% endfor
+		% else:
+			<dl class="notify_item">
+				<dt style="text-align: center;">
+					暂无通知
+				</dt>
+			</dl>
+		% endif
+	</div>
+</div>
+<script>
+$(function(){
+	//未读改为已读
+	$('dl.odd dt').click(function(){
+		var nid = $(this).parent().attr('notify_id');
+		var $obj = $(this);
+		push.sendReadEvent(nid, function(data){
+			$obj.parent().addClass('readed').removeClass('odd');
+		});
+	})
+	$('.notify_item dt').click(function(){
+		if($(this).next().hasClass('noticenone')){
+			$(this).next().removeClass('noticenone');
+		}else{
+			$(this).next().addClass('noticenone');
+		}
+	})
+})
+</script>
+</%block>

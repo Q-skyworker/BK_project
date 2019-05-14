@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <%block name='head'>
+    <title>${_(u'标准运维')}|${_(RUN_VER_NAME)}</title>
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" href="${STATIC_URL}images/gcloud.png" type="image/x-icon">
+    <link href="${REMOTE_STATIC_URL}v3/assets/bootstrap-3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${REMOTE_STATIC_URL}v3/assets/fontawesome/css/font-awesome.css?v=${STATIC_VERSION}" rel="stylesheet">
+    <link href="${STATIC_URL}assets/bk/css/bk.css?v=${STATIC_VERSION}" rel="stylesheet">
+    <!-- 滚动条样式 -->
+    <link href="${REMOTE_STATIC_URL}v3/assets/mCustomScrollbar-3.0.9/jquery.mCustomScrollbar.css?v=${STATIC_VERSION}" rel="stylesheet" >
+    <link href="${REMOTE_STATIC_URL}v3/assets/select2-3.5.2/select2.css?v=${STATIC_VERSION}" rel="stylesheet">
+    <link href="${REMOTE_STATIC_URL}v3/assets/bk-icon-2.0/iconfont.css" rel="stylesheet">
+    <link href="${STATIC_URL}css/style.css?v=${STATIC_VERSION}" rel="stylesheet" >
+    <link href="${STATIC_URL}css/common.css?v=${STATIC_VERSION}" rel="stylesheet" type="text/css">
+    <!-- 提示弹框 -->
+    <link href="${REMOTE_STATIC_URL}v3/assets/artDialog-6.0.4/css/ui-dialog.css?v=${STATIC_VERSION}" rel="stylesheet">
+    <link href="${REMOTE_STATIC_URL}v3/assets/toastr-2.1.2/toastr.min.css" rel="stylesheet">
+    </%block>
+</head>
+<body id="index">
+    <!-- 头部 -->
+    % if HIDE_HEADER != 1:
+    <header id="header">
+        <div class="standardCon clearfix">
+            <div class="logo head"><img src="${STATIC_URL}images/${_('logo-zh')}.png?v=${STATIC_VERSION}"></div>
+            <%block name='navigation'>
+            <nav class="head">
+                <ul id="navList">
+                    % if not is_functor and not is_auditor:
+                    <li class="${'active' if CUR_POS=='business' else ''}">
+                        <a href="${SITE_URL}business/home/${BIZ_CC_ID}/">${_(u'业务首页')}</a>
+                    </li>
+                    <li class="${'active' if CUR_POS=='template' else ''}">
+                        <a href="${SITE_URL}template/home/${BIZ_CC_ID}/">${_(u'流程模板')}</a>
+                    </li>
+                    <li class="${'active' if CUR_POS=='taskflow' else ''}">
+                        <a href="${SITE_URL}taskflow/home/${BIZ_CC_ID}/">${_(u'任务记录')}</a>
+                    </li>
+                    <li class="${'active' if CUR_POS=='config' else ''}">
+                        <a href="${SITE_URL}config/home/${BIZ_CC_ID}/">${_(u'业务配置')}</a>
+                    </li>
+
+                    <li class="${'active' if CUR_POS=='appmaker' else ''}">
+                        <a href="${SITE_URL}appmaker/home/${BIZ_CC_ID}/">${_(u'轻应用')}</a>
+                    </li>
+                    % endif
+                    % if is_functor:
+                    <li class="active">
+                        <a href="${SITE_URL}function/home/">${_(u'职能化中心')}</a>
+                    </li>
+                    % endif
+                    % if is_auditor and not is_functor:
+                    <li class="active">
+                        <a href="${SITE_URL}audit/home/">${_(u'审计中心')}</a>
+                    </li>
+                    % endif
+                    <li class="${'active' if CUR_POS=='pages' else ''}">
+                        <a href="http://bk.tencent.com/document/bkprod/000112.html" target="_blank">${_(u'帮助文档')}</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="hearPortrait">
+                <div class="protraitCon clearfix">
+                    % if not (is_functor or is_auditor):
+                    <div class="portraitLeft">
+                        <div class="con-list" id="now-pro">
+                            <div class="sear" data-show="1" @click="select_biz">
+                                <input type="text" name="" class="business-show" disabled v-model="biz_cc_name">
+                                <div class="plugin3_demo right" id="busi_common">
+                                    <input type="hidden" name="" id="busi_select" class="select2_box">
+                                    <span class="active"><i class="fa fa-sort-down active"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    % endif
+                    <div class="protraintRight">
+                        <span style="margin-top: 15px">${NICK}</span>
+                        <!-- <img src="${AVATAR}">  -->
+                        <!-- <a href="javascript:;" class="message">99</a>-->
+                    </div>
+                </div>
+            </div>
+            </%block>
+        </div>
+    </header>
+    % endif
+    <!-- 头部 end-->
+    <!-- 内容 -->
+    <%block name='content'>
+    </%block>
+    <!-- 内容 end-->
+
+    <footer>
+        <ul class="links ft">
+            <li>
+                <a id="contact_us" class="link">${_(u'QQ咨询(800802001)')}</a>
+                | <a href="http://bbs.bk.tencent.com/forum.php" target="_blank" hotrep="hp.footer.feedback" class="link">${_(u'蓝鲸论坛')}</a>
+                | <a href="http://bk.tencent.com/" target="_blank" hotrep="hp.footer.feedback" class="link">${_(u'蓝鲸官网')}</a>
+                | <a href="/" target="_blank" hotrep="hp.footer.feedback" class="link">${_(u'蓝鲸智云桌面')}</a>
+            </li>
+            <li><p style="margin: 0;">Copyright © 2012-2018 Tencent BlueKing. All Rights Reserved.</p></li>
+            ${_(u'<li><p style="margin: 0;">蓝鲸智云 版权所有</p></li>')}
+        </ul>
+    </footer>
+
+</body>
+<%block name="base_js">
+<!-- 国际化 -->
+<script src="${SITE_URL}jsi18n/gcloud/"></script>
+<script type="text/javascript">
+    // 设置date格式的对象的toJSON方法
+    // 默认是"2016-08-10T08:16:28.035Z"格式
+    // 改成"2016-08-10 16:16:28"格式
+    Date.prototype.toJSON = function(){ return this.toString() };
+    // 设置全局变量，便于js代码中引用
+    var REMOTE_STATIC_URL = '${REMOTE_STATIC_URL}';
+    var remote_static_url = '${REMOTE_STATIC_URL}';
+    var STATIC_URL = '${STATIC_URL}';
+    var static_url = '${STATIC_URL}';
+    var STATIC_VERSION = '${STATIC_VERSION}';
+    var static_version = '${STATIC_VERSION}';
+    var SITE_URL = '${SITE_URL}';
+    var site_url = '${SITE_URL}';
+    var BK_URL = '${BK_URL}';
+    var bk_url = '${BK_URL}';
+    var BIZ_CC_ID = Number('${BIZ_CC_ID}');
+    var BIZ_CC_NAME = '${BIZ_CC_NAME}';
+    var biz_cc_id = Number('${BIZ_CC_ID}');
+    var USERNAME = '${USERNAME}';
+</script>
+<script src="${REMOTE_STATIC_URL}v3/assets/js/jquery-1.10.2.min.js" ></script>
+<script src="${REMOTE_STATIC_URL}v3/assets/jquery-ui-1.11.0.custom/jquery-ui.js?v=${STATIC_VERSION}"></script>
+<script src="${REMOTE_STATIC_URL}v3/assets/bootstrap-tagsinput-0.6.1/bootstrap-tagsinput.min.js?v=${STATIC_VERSION}"></script>
+
+<!-- 滚动条插件 -->
+<script src="${REMOTE_STATIC_URL}v3/assets/mCustomScrollbar-3.0.9/jquery.mCustomScrollbar.concat.min.js?v=${STATIC_VERSION}"></script>
+<script src="${REMOTE_STATIC_URL}v3/assets/select2-3.5.2/select2.js?v=${STATIC_VERSION}"></script>
+<!-- 提示弹框 -->
+<script src="${REMOTE_STATIC_URL}v3/assets/artDialog-6.0.4/dist/dialog-min.js?v=${STATIC_VERSION}"></script>
+<!--<script src="${REMOTE_STATIC_URL}v3/assets/topbar-1.0/topbar.js?v=${STATIC_VERSION}"></script>-->
+
+<script src="${STATIC_URL}assets/vue.js?v=${STATIC_VERSION}"></script>
+<script src="${STATIC_URL}assets/vue-validator.js?v=${STATIC_VERSION}"></script>
+<script src="${REMOTE_STATIC_URL}v3/assets/toastr-2.1.2/toastr.min.js"></script>
+<!--配置js  勿删-->
+<script src="${STATIC_URL}js/settings.js?v=${STATIC_VERSION}"></script>
+<script src="${REMOTE_ANALYSIS_URL}" type="text/javascript"></script>
+<!--获取csrftoken的js  勿删-->
+<script src="${STATIC_URL}js/js.cookie.js?v=${STATIC_VERSION}"></script>
+<!-- RSA加密JS -->
+<script src="${STATIC_URL}js/jsencrypt.min.js?v=${STATIC_VERSION}"></script>
+<script src="${STATIC_URL}js/common.js?v=${STATIC_VERSION}"></script>
+<script type="text/javascript">
+    var HIDE_HEADER = "${HIDE_HEADER}";
+    // hide header
+    $('body').on('click', 'a[href]', function(){
+        if(HIDE_HEADER === '1' && (!this.href.startsWith('javascript'))){
+            var new_href = this.href + (this.href.match(/\?/) ? '&' : '?') + 'hide_header=1';
+            $(this).attr('href', new_href);
+        }
+    });
+//	$(document).ajaxSend(function(event, xhr, options){
+//        if(HIDE_HEADER === '1' && options.type === 'GET'){
+//            options.url += (options.url.match(/\?/) ? '&' : '?') + 'hide_header=1';
+//        }
+//    })
+</script>
+</%block>
+<!--
+    这里放置子页面中，不在block的内容，一般为js，注意子模版中的js如果使用到以上js库，必须放置在block外
+    只对直接子页面起效，若子页面被继承，且继承子页面的页面有不在block中的内容，则子页面也需添加 {next.body()}
+    {next.body()}的位置决定了子页面不在block的内容被渲染的位置
+    也可使用{self.body()}，但{self.body()}只渲染最终页面不在block中的内容，中间继承页面不在block的内容不做渲染
+ -->
+${next.body()}
+<!-- 兼容性设置 -->
+</html>

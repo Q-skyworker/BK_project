@@ -1,0 +1,692 @@
+@charset "UTF-8";
+/* king-vertical-nav4*/
+.king-vertical-nav4 {
+  min-width: 160px;
+  min-height: 100%;
+  margin: 0;
+  border-right: 1px solid #dddddd;
+  background-color: #f2f2f2;
+  z-index: 10;
+}
+.king-vertical-nav4.king-full-height {
+  position: fixed;
+  min-height: 100%;
+  margin: 0;
+  z-index: 10;
+}
+.king-vertical-nav4.auto-height {
+  position: absolute;
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  z-index: 10;
+}
+.king-vertical-nav4 .navbar-header {
+  float: none;
+  background: #4a9bff;
+}
+.king-vertical-nav4 .navbar-header a {
+  color: #fff;
+  font-weight: 400;
+}
+.king-vertical-nav4 ul {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.king-vertical-nav4 ul li {
+  list-style-type: none;
+}
+.king-vertical-nav4 .sidebar-inner {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 60;
+}
+.king-vertical-nav4 .sidebar-search {
+  padding: 10px;
+}
+.king-vertical-nav4 .sidebar-search input {
+  border-color: #eee;
+  box-shadow: none;
+  border-radius: 0;
+}
+.king-vertical-nav4 .sidebar-search input:focus {
+  border-color: #4a9bff;
+}
+.king-vertical-nav4 .navi li i {
+  margin-right: 5px;
+}
+.king-vertical-nav4 .navi li span i {
+  margin: 0px;
+}
+.king-vertical-nav4 .navi li ul {
+  display: none;
+  background: #eee;
+  padding: 5px 0 10px 0;
+  background-color: transparent;
+  border-top: 1px solid #f5f5f5;
+  border-bottom: 1px solid #dbdbdb;
+}
+.king-vertical-nav4 .navi li > a {
+  padding: 10px 20px;
+  font-size: 14px;
+  border-top: none;
+  border-bottom: 1px solid #e8e8e8;
+}
+.king-vertical-nav4 .navi li.last ul {
+  border-bottom: none;
+}
+.king-vertical-nav4 .navi > li.active > a {
+  background-color: #eee;
+  color: #000;
+}
+.king-vertical-nav4 .navi > li > a {
+  display: block;
+  padding: 12px 20px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #555;
+  text-decoration: none;
+  border-top: 1px solid #eaeaea;
+}
+.king-vertical-nav4 .navi > li > a:hover {
+  background-color: #eee;
+  color: #000;
+}
+.king-vertical-nav4 .navi .open ul {
+  display: block;
+}
+.king-vertical-nav4 .navi i.fa {
+  margin-right: 14px;
+  font-size: 22px;
+  vertical-align: sub;
+}
+.king-vertical-nav4 .navi i.fa-tasks {
+  font-size: 20px;
+}
+.king-vertical-nav4 .navi i.fa-angle-down {
+  font-size: 16px;
+  margin-right: 0px;
+}
+.king-vertical-nav4 .navi .sub-menu i {
+  display: none;
+  font-size: 12px;
+  margin-top: 11px;
+  margin-right: 20px;
+}
+.king-vertical-nav4 .navi .sub-menu li {
+  display: block;
+  padding-left: 53px;
+  border-top: none;
+  line-height: 32px;
+}
+.king-vertical-nav4 .navi .sub-menu li a {
+  color: #777;
+  padding: 0px;
+  font-size: 12px;
+}
+.king-vertical-nav4 .navi .sub-menu li a:hover {
+  color: #266cad;
+}
+.king-vertical-nav4 .navi .sub-menu li.active a {
+  color: #266cad;
+}
+.king-vertical-nav4 .navi .sub-menu li.active i {
+  display: block;
+}
+.king-vertical-nav4 .sidebar .navi > li.open > a {
+  background-color: #eee;
+  color: #000;
+}
+
+/* king-vertical-nav5*/
+.king-vertical-nav5 {
+  text-align: left;
+  background: #f5f5f5;
+  position: relative;
+  min-width: 200px;
+  z-index: 999;
+  overflow: hidden;
+}
+.king-vertical-nav5.king-full-height {
+  position: fixed;
+  min-height: 100%;
+  margin: 0;
+  z-index: 10;
+}
+.king-vertical-nav5 .sidebar {
+  margin: 0;
+  text-indent: 20px;
+  list-style: none;
+  padding: 0;
+}
+.king-vertical-nav5 .sidebar li a {
+  color: #fff;
+  display: block;
+  float: left;
+  text-decoration: none;
+  width: 100%;
+}
+.king-vertical-nav5 .sidebar .sidebar-main {
+  height: 65px;
+}
+.king-vertical-nav5 .sidebar .sidebar-main a {
+  font-size: 18px;
+  line-height: 60px;
+  background: #4A9BFF;
+}
+.king-vertical-nav5 .sidebar .sidebar-main .menu-icon {
+  float: right;
+  margin-top: 23px;
+  margin-right: 28px;
+}
+.king-vertical-nav5 .sidebar .sidebar-title {
+  font-size: 15px;
+  height: 35px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #333;
+}
+.king-vertical-nav5 .sidebar .sidebar-item {
+  height: 40px;
+}
+.king-vertical-nav5 .sidebar .sidebar-item a {
+  color: #666;
+  border-left: 3px solid #f5f5f5;
+  font-size: 12px;
+  line-height: 40px;
+  text-indent: 25px;
+}
+.king-vertical-nav5 .sidebar .sidebar-item a:hover {
+  background: #eee;
+  color: #000;
+  border-color: #4A9BFF;
+}
+.king-vertical-nav5 .sidebar .sidebar-item a:hover .menu-icon {
+  text-indent: 25px;
+}
+.king-vertical-nav5 .sidebar .sidebar-item .menu-icon {
+  float: right;
+  margin-top: 13px;
+  margin-right: 29px;
+}
+.king-vertical-nav5 .sidebar .sidebar-item.current a {
+  border-color: #4A9BFF;
+  background: #eee;
+  color: #000;
+}
+
+.king-vertical-nav5-warning .sidebar .sidebar-main a {
+  background: #f3b760;
+}
+.king-vertical-nav5-warning .sidebar .sidebar-item a:hover {
+  border-color: #f3b760;
+}
+.king-vertical-nav5-warning .sidebar .sidebar-item.current a {
+  border-color: #f3b760;
+}
+
+.king-vertical-nav5-danger .sidebar .sidebar-main a {
+  background: #d26a5c;
+}
+.king-vertical-nav5-danger .sidebar .sidebar-item a:hover {
+  border-color: #d26a5c;
+}
+.king-vertical-nav5-danger .sidebar .sidebar-item.current a {
+  border-color: #d26a5c;
+}
+
+.king-vertical-nav5-success .sidebar .sidebar-main a {
+  background: #46c37b;
+}
+.king-vertical-nav5-success .sidebar .sidebar-item a:hover {
+  border-color: #46c37b;
+}
+.king-vertical-nav5-success .sidebar .sidebar-item.current a {
+  border-color: #46c37b;
+}
+
+/* king-vertical-nav6*/
+.king-vertical-nav6 {
+  z-index: 9;
+  height: 100%;
+  background: #e1e1e1;
+  background: #f2f2f2;
+}
+.king-vertical-nav6.king-full-height {
+  position: fixed;
+  min-height: 100%;
+  margin: 0;
+  z-index: 10;
+}
+.king-vertical-nav6 .nav-header {
+  display: block;
+  padding: 12px 20px;
+  background: #4A9BFF;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.king-vertical-nav6 .nav-header .logo {
+  font-size: 44px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.king-vertical-nav6 .nav-list {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+}
+.king-vertical-nav6 .nav-list li {
+  height: 60px;
+  line-height: 60px;
+  text-align: left;
+}
+.king-vertical-nav6 .nav-list li a {
+  display: block;
+  font-size: 14px;
+  color: #444;
+}
+.king-vertical-nav6 .nav-list li a:hover, .king-vertical-nav6 .nav-list li a.active {
+  background: #fff;
+}
+.king-vertical-nav6 .nav-list li .sidebar_icon {
+  display: block;
+  width: 36px;
+  height: 32px;
+  float: left;
+  margin: 15px 10px 0 20px;
+  background: url(../images/sprite_sidebar.png) no-repeat;
+}
+.king-vertical-nav6 .nav-list li i.icon_business {
+  background-position: 1px -13px;
+}
+.king-vertical-nav6 .nav-list li i.icon_knowledge {
+  background-position: 1px -72px;
+}
+.king-vertical-nav6 .nav-list li i.icon_data {
+  background-position: 1px -134px;
+}
+.king-vertical-nav6 .nav-list li i.icon_work {
+  background-position: 1px -193px;
+}
+.king-vertical-nav6 .nav-list li i.icon_manage {
+  background-position: 1px -254px;
+}
+.king-vertical-nav6 .nav-list li i.icon_devel {
+  background-position: 1px -316px;
+}
+
+/* king-vertical-nav9*/
+.king-vertical-nav9 .navbar-nav > li {
+  float: none;
+}
+.king-vertical-nav9 .navbar-nav > li > a {
+  color: #eee;
+}
+.king-vertical-nav9 .navbar-nav > li > a:hover, .king-vertical-nav9 .navbar-nav > li > a:focus {
+  background-color: #222C31;
+}
+.king-vertical-nav9 .navbar-nav > .active > a, .king-vertical-nav9 .navbar-nav > .active > a:hover, .king-vertical-nav9 .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #162127;
+}
+.king-vertical-nav9 .side-nav {
+  background-color: #263238;
+  float: none;
+  margin-left: -215px;
+  border: none;
+  border-radius: 0;
+  overflow-y: auto;
+  background-color: #263238;
+  bottom: 0;
+  overflow-x: hidden;
+  padding-bottom: 40px;
+}
+.king-vertical-nav9 .side-nav li a:hover, .king-vertical-nav9 .side-nav li a:focus {
+  outline: none;
+  background-color: #2D3D46;
+}
+.king-vertical-nav9 .side-nav > li > a {
+  display: block;
+}
+.king-vertical-nav9 .side-nav > li > ul {
+  padding: 0;
+}
+.king-vertical-nav9 .side-nav > li > ul > li > a {
+  display: block;
+  padding: 10px 15px 10px 38px;
+  text-decoration: none;
+  color: #999;
+}
+.king-vertical-nav9 .side-nav > li > ul > li > a:hover {
+  color: #fff;
+}
+.king-vertical-nav9 .navbar-collapse {
+  padding-left: 215px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  padding-right: 0px;
+}
+.king-vertical-nav9.king-full-height {
+  position: fixed;
+  min-height: 100%;
+  margin: 0;
+  z-index: 10;
+  background-color: #263238;
+}
+
+/* 纵向导航菜单样例十*/
+.king-vertical-nav10 {
+  width: 80px;
+  background: #2a2b3c;
+}
+.king-vertical-nav10.king-full-height {
+  height: 100%;
+}
+.king-vertical-nav10 .sidebar-inner {
+  padding: 80px 0px 120px 0px;
+}
+.king-vertical-nav10 ul {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.king-vertical-nav10 .navi li a {
+  display: block;
+  width: 100%;
+  height: 65px;
+  padding-top: 13px;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+.king-vertical-nav10 .navi > li {
+  position: relative;
+  border-bottom: #252636 1px solid;
+}
+.king-vertical-nav10 .navi > li:hover {
+  background-color: #252636;
+  border-bottom: #252636 1px solid;
+}
+.king-vertical-nav10 .navi > li:hover .sub-menu {
+  display: block;
+  z-index: 10;
+}
+.king-vertical-nav10 .navi > li.active, .king-vertical-nav10 .navi > li.active:hover {
+  background-color: #a54e4c;
+}
+.king-vertical-nav10 .navi > li .fa {
+  display: block;
+  font-size: 20px;
+  color: #fff;
+}
+.king-vertical-nav10 .navi .sub-menu {
+  display: none;
+  position: absolute;
+  left: 80px;
+  top: 0px;
+  min-width: 200px;
+  padding: 10px;
+  background-color: #252636;
+}
+.king-vertical-nav10 .navi .sub-menu li {
+  border: none;
+  padding: 0;
+  line-height: 40px;
+}
+.king-vertical-nav10 .navi .sub-menu li.active a {
+  background-color: #a54e4c;
+  color: #fff;
+}
+.king-vertical-nav10 .navi .sub-menu li a {
+  position: relative;
+  display: block;
+  height: auto;
+  line-height: 1em;
+  padding: 8px 20px;
+  color: #fff;
+  white-space: nowrap;
+  text-align: left;
+}
+.king-vertical-nav10 .navi .sub-menu li a:hover {
+  background-color: #a54e4c;
+  color: #fff;
+}
+.king-vertical-nav10 .navi .has-submenu > a {
+  cursor: default;
+}
+
+.king-vertical-info.king-vertical-nav10 {
+  background-color: #177fff;
+}
+.king-vertical-info.king-vertical-nav10 .navi > li {
+  border-bottom: #0071fd 1px solid;
+}
+.king-vertical-info.king-vertical-nav10 .navi > li:hover {
+  background-color: #4A9BFF;
+  border-bottom: #4A9BFF 1px solid;
+}
+.king-vertical-info.king-vertical-nav10 .navi > li.active, .king-vertical-info.king-vertical-nav10 .navi > li.active:hover {
+  background-color: #4A9BFF;
+}
+.king-vertical-info.king-vertical-nav10 .navi .sub-menu {
+  background-color: #4A9BFF;
+}
+.king-vertical-info.king-vertical-nav10 .navi .sub-menu li.active a {
+  background-color: #177fff;
+}
+.king-vertical-info.king-vertical-nav10 .navi .sub-menu li a:hover {
+  background-color: #177fff;
+}
+
+.king-vertical-primary.king-vertical-nav10 {
+  background-color: #3675c5;
+}
+.king-vertical-primary.king-vertical-nav10 .navi > li {
+  border-bottom: #3169b1 1px solid;
+}
+.king-vertical-primary.king-vertical-nav10 .navi > li:hover {
+  background-color: #5c90d2;
+  border-bottom: #5c90d2 1px solid;
+}
+.king-vertical-primary.king-vertical-nav10 .navi > li.active, .king-vertical-primary.king-vertical-nav10 .navi > li.active:hover {
+  background-color: #5c90d2;
+}
+.king-vertical-primary.king-vertical-nav10 .navi .sub-menu {
+  background-color: #5c90d2;
+}
+.king-vertical-primary.king-vertical-nav10 .navi .sub-menu li.active a {
+  background-color: #3675c5;
+}
+.king-vertical-primary.king-vertical-nav10 .navi .sub-menu li a:hover {
+  background-color: #3675c5;
+}
+
+.king-vertical-warning.king-vertical-nav10 {
+  background-color: #efa231;
+}
+.king-vertical-warning.king-vertical-nav10 .navi > li {
+  border-bottom: #ee9719 1px solid;
+}
+.king-vertical-warning.king-vertical-nav10 .navi > li:hover {
+  background-color: #f3b760;
+  border-bottom: #f3b760 1px solid;
+}
+.king-vertical-warning.king-vertical-nav10 .navi > li.active, .king-vertical-warning.king-vertical-nav10 .navi > li.active:hover {
+  background-color: #f3b760;
+}
+.king-vertical-warning.king-vertical-nav10 .navi .sub-menu {
+  background-color: #f3b760;
+}
+.king-vertical-warning.king-vertical-nav10 .navi .sub-menu li.active a {
+  background-color: #efa231;
+}
+.king-vertical-warning.king-vertical-nav10 .navi .sub-menu li a:hover {
+  background-color: #efa231;
+}
+
+.king-vertical-danger.king-vertical-nav10 {
+  background-color: #c54736;
+}
+.king-vertical-danger.king-vertical-nav10 .navi > li {
+  border-bottom: #b14031 1px solid;
+}
+.king-vertical-danger.king-vertical-nav10 .navi > li:hover {
+  background-color: #d26a5c;
+  border-bottom: #d26a5c 1px solid;
+}
+.king-vertical-danger.king-vertical-nav10 .navi > li.active, .king-vertical-danger.king-vertical-nav10 .navi > li.active:hover {
+  background-color: #d26a5c;
+}
+.king-vertical-danger.king-vertical-nav10 .navi .sub-menu {
+  background-color: #d26a5c;
+}
+.king-vertical-danger.king-vertical-nav10 .navi .sub-menu li.active a {
+  background-color: #c54736;
+}
+.king-vertical-danger.king-vertical-nav10 .navi .sub-menu li a:hover {
+  background-color: #c54736;
+}
+
+.king-vertical-success.king-vertical-nav10 {
+  background-color: #34a263;
+}
+.king-vertical-success.king-vertical-nav10 .navi > li {
+  border-bottom: #2e8e57 1px solid;
+}
+.king-vertical-success.king-vertical-nav10 .navi > li:hover {
+  background-color: #46c37b;
+  border-bottom: #46c37b 1px solid;
+}
+.king-vertical-success.king-vertical-nav10 .navi > li.active, .king-vertical-success.king-vertical-nav10 .navi > li.active:hover {
+  background-color: #46c37b;
+}
+.king-vertical-success.king-vertical-nav10 .navi .sub-menu {
+  background-color: #46c37b;
+}
+.king-vertical-success.king-vertical-nav10 .navi .sub-menu li.active a {
+  background-color: #34a263;
+}
+.king-vertical-success.king-vertical-nav10 .navi .sub-menu li a:hover {
+  background-color: #34a263;
+}
+
+.king-vertical-nav10-info.king-vertical-nav10 {
+  background-color: #177fff;
+}
+.king-vertical-nav10-info.king-vertical-nav10 .navi > li {
+  border-bottom: #0071fd 1px solid;
+}
+.king-vertical-nav10-info.king-vertical-nav10 .navi > li:hover {
+  background-color: #4A9BFF;
+  border-bottom: #4A9BFF 1px solid;
+}
+.king-vertical-nav10-info.king-vertical-nav10 .navi > li.active, .king-vertical-nav10-info.king-vertical-nav10 .navi > li.active:hover {
+  background-color: #4A9BFF;
+}
+.king-vertical-nav10-info.king-vertical-nav10 .navi .sub-menu {
+  background-color: #4A9BFF;
+}
+.king-vertical-nav10-info.king-vertical-nav10 .navi .sub-menu li.active a {
+  background-color: #177fff;
+}
+.king-vertical-nav10-info.king-vertical-nav10 .navi .sub-menu li a:hover {
+  background-color: #177fff;
+}
+
+.king-vertical-nav10-primary.king-vertical-nav10 {
+  background-color: #3675c5;
+}
+.king-vertical-nav10-primary.king-vertical-nav10 .navi > li {
+  border-bottom: #3169b1 1px solid;
+}
+.king-vertical-nav10-primary.king-vertical-nav10 .navi > li:hover {
+  background-color: #5c90d2;
+  border-bottom: #5c90d2 1px solid;
+}
+.king-vertical-nav10-primary.king-vertical-nav10 .navi > li.active, .king-vertical-nav10-primary.king-vertical-nav10 .navi > li.active:hover {
+  background-color: #5c90d2;
+}
+.king-vertical-nav10-primary.king-vertical-nav10 .navi .sub-menu {
+  background-color: #5c90d2;
+}
+.king-vertical-nav10-primary.king-vertical-nav10 .navi .sub-menu li.active a {
+  background-color: #3675c5;
+}
+.king-vertical-nav10-primary.king-vertical-nav10 .navi .sub-menu li a:hover {
+  background-color: #3675c5;
+}
+
+.king-vertical-nav10-warning.king-vertical-nav10 {
+  background-color: #efa231;
+}
+.king-vertical-nav10-warning.king-vertical-nav10 .navi > li {
+  border-bottom: #ee9719 1px solid;
+}
+.king-vertical-nav10-warning.king-vertical-nav10 .navi > li:hover {
+  background-color: #f3b760;
+  border-bottom: #f3b760 1px solid;
+}
+.king-vertical-nav10-warning.king-vertical-nav10 .navi > li.active, .king-vertical-nav10-warning.king-vertical-nav10 .navi > li.active:hover {
+  background-color: #f3b760;
+}
+.king-vertical-nav10-warning.king-vertical-nav10 .navi .sub-menu {
+  background-color: #f3b760;
+}
+.king-vertical-nav10-warning.king-vertical-nav10 .navi .sub-menu li.active a {
+  background-color: #efa231;
+}
+.king-vertical-nav10-warning.king-vertical-nav10 .navi .sub-menu li a:hover {
+  background-color: #efa231;
+}
+
+.king-vertical-nav10-danger.king-vertical-nav10 {
+  background-color: #c54736;
+}
+.king-vertical-nav10-danger.king-vertical-nav10 .navi > li {
+  border-bottom: #b14031 1px solid;
+}
+.king-vertical-nav10-danger.king-vertical-nav10 .navi > li:hover {
+  background-color: #d26a5c;
+  border-bottom: #d26a5c 1px solid;
+}
+.king-vertical-nav10-danger.king-vertical-nav10 .navi > li.active, .king-vertical-nav10-danger.king-vertical-nav10 .navi > li.active:hover {
+  background-color: #d26a5c;
+}
+.king-vertical-nav10-danger.king-vertical-nav10 .navi .sub-menu {
+  background-color: #d26a5c;
+}
+.king-vertical-nav10-danger.king-vertical-nav10 .navi .sub-menu li.active a {
+  background-color: #c54736;
+}
+.king-vertical-nav10-danger.king-vertical-nav10 .navi .sub-menu li a:hover {
+  background-color: #c54736;
+}
+
+.king-vertical-nav10-success.king-vertical-nav10 {
+  background-color: #34a263;
+}
+.king-vertical-nav10-success.king-vertical-nav10 .navi > li {
+  border-bottom: #2e8e57 1px solid;
+}
+.king-vertical-nav10-success.king-vertical-nav10 .navi > li:hover {
+  background-color: #46c37b;
+  border-bottom: #46c37b 1px solid;
+}
+.king-vertical-nav10-success.king-vertical-nav10 .navi > li.active, .king-vertical-nav10-success.king-vertical-nav10 .navi > li.active:hover {
+  background-color: #46c37b;
+}
+.king-vertical-nav10-success.king-vertical-nav10 .navi .sub-menu {
+  background-color: #46c37b;
+}
+.king-vertical-nav10-success.king-vertical-nav10 .navi .sub-menu li.active a {
+  background-color: #34a263;
+}
+.king-vertical-nav10-success.king-vertical-nav10 .navi .sub-menu li a:hover {
+  background-color: #34a263;
+}

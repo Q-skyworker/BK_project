@@ -1,0 +1,14 @@
+.king-page-topbar {
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+.king-page-topbar .h1, .king-page-topbar .h2, .king-page-topbar .h3, .king-page-topbar h1, .king-page-topbar h2, .king-page-topbar h3 {
+  margin-top: 0;
+}
+.king-page-topbar .breadcrumb {
+  margin-bottom: 0;
+  background: transparent;
+}
+.king-page-topbar .breadcrumb > li + li:before {
+  content: "> " !important;
+}

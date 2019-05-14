@@ -1,0 +1,85 @@
+<!-- NOTE：这个页面由标准运维任务记录页面和任意轻应用的任务记录页面公用 -->
+<%inherit file="/temp/base.html"/>
+
+<%block name='head'>
+    ${parent.head()}
+
+    <link href="${STATIC_URL}css/configuration.css?v=${STATIC_VERSION}" rel="stylesheet" type="text/css" >
+    <link href="${STATIC_URL}assets/datatables-1.10.7/dataTables.bootstrap.css?v=${STATIC_VERSION}" rel="stylesheet" type="text/css" >
+</%block>
+
+<%block name='navigation'>
+% if view_mode=="appmaker":
+    <nav class="head">
+        <ul id="navList">
+            <li>
+                <a href="${SITE_URL}appmaker/${app_id}/newtask/${BIZ_CC_ID}/selectnode/?template_id=${template_id}">${_(u'新建任务')}</a>
+            </li>
+            <li class="active">
+                <a href="${SITE_URL}appmaker/${app_id}/task_home/${BIZ_CC_ID}">${_(u'任务记录')}</a>
+            </li>
+        </ul>
+    </nav>
+% else:
+    ${parent.navigation()}
+% endif
+</%block>
+
+<%block name='content'>
+<section>
+    <div class="standardCon work" id="work_history_box">
+        <!-- 模板列表 开始 -->
+        <div class="workList" style="position: relative;">
+            <h3 style="color: #333">${_(u'任务记录')}</h3>
+            <div class="workSearch clearfix bt-none" v-if="!(view_mode == 'appmaker')">
+                <span class="pull-left taskflow-type-title">${_(u'任务类型：')}</span>
+                <ul class="nav-left taskflow-type" style="width:700px;">
+                    <li class="border-ddd no-right active" data-search="all">${_(u'全部')}</li>
+                    <li v-cloak v-bind:class="['border-ddd','no-right']" data-search="{{item.value}}" v-for="item in taskCategory" @click="choseCategory()">{{item.name}}</li>
+                </ul>
+            </div>
+
+            <div class="king-block mb0 pb10">
+                <div class="king-block-content">
+                    <table id="taskflow_datatables" class="table table-bordered" style="table-layout: fixed;">
+                        <colgroup>
+                            <col width="100px" />
+                            <col />
+                            <col />
+                            <col />
+                            <col width="100px"/>
+                            <col width="100px" />
+                            <col width="100px" />
+                            <col width="100px" />
+                            <col width="150px" v-if="!(view_mode == 'appmaker')" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th><div>${_(u'任务名称')}</div></th>
+                                <th>${_(u'执行开始')}</th>
+                                <th>${_(u'执行结束')}</th>
+                                <th>${_(u'任务类型')}</th>
+                                <th>${_(u'创建人')}</th>
+                                <th>${_(u'执行人')}</th>
+                                <th>${_(u'状态')}</th>
+                                <th v-if="!(view_mode == 'appmaker')" >${_(u'操作')}</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- 模板列表 结束 -->
+    </div>
+</section>
+</%block>
+<script src="${STATIC_URL}assets/datatables-1.10.7/jquery.dataTables.min.js?v=${STATIC_VERSION}"></script>
+<script src="${STATIC_URL}assets/datatables-1.10.7/dataTables.bootstrap.min.js?v=${STATIC_VERSION}"></script>
+
+<script type="text/javascript">
+    var VIEW_MODE = '${view_mode}';
+    var APP_ID = '${app_id}';
+    var TEMPLATE_ID = '${template_id}';
+</script>
+<script src="${STATIC_URL}taskflow3/js/home.js?v=${STATIC_VERSION}"></script>

@@ -1,0 +1,36 @@
+<%inherit file="/temp/base.html"/>
+<%block name='head'>
+${parent.head()}
+<link href="${STATIC_URL}config/css/config.css?v=${STATIC_VERSION}" rel="stylesheet" type="text/css">
+</%block>
+
+<%block name='content'>
+<section id="config_home">
+    <div class="standardCon work">
+        <!-- 流程列表 开始 -->
+        <div class="workList">
+            <h3>${_(u'业务配置')}</h3>
+            <div class="king-block mb0 pb10">
+                <div class="king-block-content">
+                    <form class="form-horizontal">
+                        <div class="control-group">
+                            <label class="control-label fl" for="biz_executor">${_(u"任务执行者")}:</label>
+                            <div class="controls">
+                                <input type="text" id="biz_executor" v-model="executor" placeholder='${_(u"该字段在非运维人员执行任务时生效，为空则从配置平台(CMDB)获取运维身份")}'>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <button class="king-btn king-success mr10" v-on:click="set_biz_executor">${_(u"保存")}</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- 流程列表 结束 -->
+    </div>
+</section>
+</%block>
+<script>
+    var executor = "${executor}";
+</script>
+<script src="${STATIC_URL}config/js/biz_executor.js?v=${STATIC_VERSION}"></script>

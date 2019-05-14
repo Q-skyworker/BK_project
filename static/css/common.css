@@ -1,0 +1,170 @@
+@charset "utf-8";
+/*任务管理模块*/
+/*头部搜索*/
+.hearPortrait .protraitWork{
+	float: right;
+}
+.modal-header{
+	background: #F5F5F5;
+}
+/* vue 未编译完成之前先隐藏 */
+[v-cloak] { display: none }
+.work{
+	background: #F5F5F5;
+	padding: 30px 60px;
+}
+.work .workList{
+	border:1px solid #DEDEDE;
+}
+.work .workList h3{
+	font-style: normal;
+	font-size: 15px;
+	margin: 0;
+	padding: 17px 15px;
+	background: #F5F5F5;
+	color: #4E5562;
+}
+.work .workList .workSearch{
+	position: relative;
+	border-top:1px solid #EBEBEB;
+	padding: 14px 15px;
+	background: #fff;
+}
+.workList .workSearch input{
+	width: 260px;
+	padding-left: 30px;
+}
+.workList .workSearch i{
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	margin-top: -7px;
+	color: #9B9B9B;
+	cursor: pointer;
+}
+.workList .workSearch a.workBot{
+	position: absolute;
+	display: block;
+	right: 15px;
+	top: 15px;
+	border:1px solid #407CC8;
+	background: #5C90D2;
+	color: #fff;
+	padding: 5px 20px;
+	font-size: 13px;
+}
+.workList .workSearch a.workBot:hover{
+	opacity: 1;
+	background-color: #3675c5;
+}
+.no-mar{
+	margin-bottom: 0;
+}
+.work-left{
+	position: relative;
+	float: left;
+}
+.work-right{
+	position: relative;
+	float: left;
+	margin-top: 0 !important;
+	margin-left:30px;
+}
+.work-right input.work-sear{
+	height: 30px;
+}
+.workTable table{
+	margin-bottom: 0;
+}
+.workTable tr th{
+	background: #F6F8F8;
+}
+.workTable .table tr th,.workTable .table tr td{
+	padding: 8px;
+	color: #353534;
+}
+.workTable .table tr th:nth-child(1),.workTable .table tr td:nth-child(1){
+	padding: 8px 8px 8px 15px;
+}
+.workTable .table tr th:nth-child(2){
+	width: 30%;
+}
+.workTable .table tr th:nth-child(3){
+	width: 18%;
+}
+.workTable .table tr th:nth-child(4){
+	width: 11%;
+}
+.workOperation span{
+	display: inline-block;
+	background: #F4F4F4;
+	border:1px solid #E0E0E0;
+	color: #565656;
+	width: 70px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 13px;
+}
+.workOperation span.newWork{
+	border:1px solid #2382F6;
+	background: #4A9BFF;
+	color: #fff;
+}
+.workOperation span.editWork{
+	border:1px solid #F0A63A;
+	background: #F3B760;
+	color: #fff;
+}
+.workOperation span.deleWork{
+	border:1px solid #C64938;
+	background: #D26A5C;
+	color: #fff;
+}
+
+
+@media screen and (max-width: 1920px) {
+    .work{
+        min-height: 844px;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .work{
+        min-height: 844px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .work{
+        min-height: 844px;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .work{
+        min-height: 712px;
+    }
+}
+
+@media screen and (max-width: 1599px) {
+	.standardCon{
+		width: 100%;
+	}
+	.workTable .table tr th:nth-child(2){
+		width: 16%;
+	}
+}
+@media screen and (max-width: 1400px) {
+	.runTime{
+		width: auto;
+	}
+}
+@media screen and (max-width: 1300px) {
+	.taskGroup .taskRight input.taskput,.taskGroup .taskRight .taskEdit{
+		width: 160px;
+	}
+}
+@media screen and (max-width: 1199px){
+	.workTable .table tr th:nth-child(2){
+		width: 12%;
+	}
+}

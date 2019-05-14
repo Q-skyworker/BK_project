@@ -1,0 +1,175 @@
+.king-layout1-header {
+  margin: auto;
+}
+
+.king-layout1-footer {
+  margin: auto;
+}
+
+.king-layout1-header .king-wrapper {
+  margin: auto;
+}
+
+.king-layout1-main {
+  margin: auto;
+  height: 100%;
+}
+
+.king-layout1-sidebar {
+  float: left;
+  /*min-height: 300px;*/
+  /*height: 100%;*/
+  margin-right: -100%;
+}
+
+.king-content-wrap {
+  float: left;
+  width: 100%;
+}
+
+.king-layout1-content {
+  margin-left: 216px;
+}
+
+.king-layout2-header {
+  min-height: 50px;
+  margin: auto;
+  min-width: 960px;
+}
+
+.king-layout2-header .king-wrapper {
+  margin: auto;
+}
+
+.king-layout2-main {
+  width: 960px;
+  margin: auto;
+}
+
+.king-layout2-inner {
+  margin-right: 210px;
+  min-height: 300px;
+}
+
+.king-layout2-sidebar {
+  position: relative;
+  float: right;
+  width: 200px;
+  margin-left: -200px;
+  min-height: 300px;
+}
+
+.king-layout2-content {
+  float: left;
+  width: 100%;
+}
+
+.king-layout5-main {
+  overflow: hidden;
+}
+
+.king-layout5-header {
+  min-height: 50px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.king-layout5-footer {
+  min-height: 50px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.king-layout5-left, .king-layout5-right {
+  position: relative;
+  float: left;
+  width: 230px;
+  margin: 0 -230px 0 0;
+}
+
+.king-layout5-right {
+  float: right;
+  width: 190px;
+  margin: 0 0 0 -190px;
+}
+
+.king-layout5-content {
+  float: left;
+  width: 100%;
+}
+
+.king-layout5-inner {
+  margin: 0 200px 0 240px;
+}
+
+.king-layout6-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  width: 230px;
+  z-index: 810;
+  bottom: 0;
+}
+
+.king-layout6-content {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -moz-transition: -moz-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -o-transition: -o-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  margin-left: 230px;
+  z-index: 820;
+}
+
+.king-layout6-content {
+  min-height: 100%;
+  z-index: 800;
+  overflow: hidden;
+}
+
+.king-content-wrapper {
+  margin: 20px auto;
+}
+
+.king-equal-height {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: inline-block;
+  background: #ddd;
+}
+
+.king-equal-height:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.king-eh-left {
+  width: 20%;
+  float: left;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+  background: #eee;
+}
+
+.king-eh-right {
+  width: 20%;
+  float: right;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+  background: #eee;
+}
+
+.king-eh-content {
+  float: left;
+  width: 60%;
+}
+
+.king-container {
+  margin: auto;
+}
+
+.king-page-box {
+  height: 100%;
+}

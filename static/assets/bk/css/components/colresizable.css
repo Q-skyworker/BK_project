@@ -1,0 +1,9 @@
+.JColResizer.table th, .JColResizer.table td {
+  overflow: hidden;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+.JCLRgripDrag {
+  border: 0 !important;
+}

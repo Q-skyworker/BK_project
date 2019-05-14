@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*===================================================*\ 
+ * 消息状态
+\*===================================================*/
+.king-notice-box {
+  margin-left: 10px;
+  padding: 10px;
+  padding-left: 30px;
+  text-align: left;
+  background: url(../images/notice_icon.png) no-repeat 0 10px;
+  display: inline-block;
+}
+
+.king-notice-box.king-notice-warning {
+  background-position: 0 10px;
+}
+
+.king-notice-box.king-notice-success {
+  background-position: 0 -140px;
+}
+
+.king-notice-box.king-notice-fail {
+  background-position: 0 -275px;
+}
+
+.king-notice-box.king-notice-question {
+  background-position: 0 -409px;
+}
+
+.king-notice-box.king-notice-sad {
+  background-position: 0 -638px;
+}
+
+.king-notice-box.king-notice-happy {
+  background-position: 0 -760px;
+}
+
+.king-notice-text {
+  margin: 0;
+  line-height: 30px;
+  padding-left: 8px;
+  min-width: 150px;
+}

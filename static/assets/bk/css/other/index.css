@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/*===================================================*\ 
+ * 进度条 progress1
+\*===================================================*/
+.king-progress {
+  height: 8px;
+  border-radius: 0;
+}
+.king-progress .progress-bar {
+  border-radius: 0;
+}
+
+/*===================================================*\ 
+ * 版权声明 template5                                         
+\*===================================================*/
+.king-copyright {
+  text-align: center;
+  padding: 30px;
+  color: #666;
+  font-size: 13px;
+}
+
+/*===================================================*\ 
+ * bootstrap popover插件样式修复
+\*===================================================*/
+.king-block .popover-title {
+  padding: 8px 14px;
+}
+
+.king-loading {
+  z-index: 9999;
+  position: fixed;
+  background: #000;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 46px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  border-radius: 6px;
+}
+
+.ui-autocomplete-category {
+  line-height: 24px;
+  padding: 5px 10px;
+  font-weight: bold;
+  background: #fafafa;
+}
+
+.king-jquery-ui-item {
+  padding: 5px 10px;
+}
+
+.king-autocomplete-loading {
+  background: white url(../images/loading_2_16x16.gif) right center no-repeat;
+}
+
+.king-tab-content {
+  border: 1px solid #ddd;
+  margin: -1px;
+  background: #fff;
+}
+
+.magic-desc {
+  font-size: 14px;
+  margin: 15px 0 10px 0;
+}
+
+.magic-desc .strong {
+  font-weight: bold;
+  color: #F97A49;
+}

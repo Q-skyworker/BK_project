@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/*===================================================*\ 
+ * 消息状态
+\*===================================================*/
+.king-notice-box {
+  margin-left: 10px;
+  padding: 10px;
+  padding-left: 33px;
+  text-align: left;
+  display: inline-block;
+}
+.king-notice-box.king-notice-warning {
+  background: url(../images/notice_warning_icon.png) no-repeat left center;
+}
+.king-notice-box.king-notice-success {
+  background: url(../images/notice_success_icon.png) no-repeat left center;
+}
+.king-notice-box.king-notice-fail {
+  background: url(../images/notice_fail_icon.png) no-repeat left center;
+}
+.king-notice-box.king-notice-question {
+  background: url(../images/notice_question_icon.png) no-repeat left center;
+}
+.king-notice-box.king-notice-sad {
+  background: url(../images/notice_sad_icon.png) no-repeat left center;
+}
+.king-notice-box.king-notice-happy {
+  background: url(../images/notice_happy_icon.png) no-repeat left center;
+}
+.king-notice-box .king-notice-text {
+  margin: 0;
+  line-height: 30px;
+  padding-left: 8px;
+  min-width: 150px;
+}
+
+/*===================================================*\ 
+ * 消息状态2
+\*===================================================*/
+.king-notice-success.king-notice2 {
+  background-color: #ecf9f1 !important;
+  padding: 8px;
+  border-radius: 6px;
+  position: relative;
+}
+.king-notice-success.king-notice2.king-notice2-large {
+  padding: 15px;
+}
+.king-notice-success.king-notice2.king-notice2-large i {
+  font-size: 36px;
+}
+.king-notice-success.king-notice2 i {
+  color: #57c887;
+  position: absolute;
+  top: 50%;
+  margin-top: -9px;
+  font-size: 18px;
+}
+.king-notice-success.king-notice2 .notice-text {
+  margin-left: 25px;
+}
+.king-notice-success.king-notice2 .notice-text h4 {
+  font-size: 13px;
+  color: #444;
+  margin: 0 0 5px 0;
+}
+.king-notice-success.king-notice2 .notice-text p {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 0;
+}
+.king-notice-success.notice-borders {
+  border: 1px solid #caeeda;
+}
+
+.king-notice-info.king-notice2 {
+  background-color: #f2f8ff !important;
+  padding: 8px;
+  border-radius: 6px;
+  position: relative;
+}
+.king-notice-info.king-notice2.king-notice2-large {
+  padding: 15px;
+}
+.king-notice-info.king-notice2.king-notice2-large i {
+  font-size: 36px;
+}
+.king-notice-info.king-notice2 i {
+  color: #5ba4ff;
+  position: absolute;
+  top: 50%;
+  margin-top: -9px;
+  font-size: 18px;
+}
+.king-notice-info.king-notice2 .notice-text {
+  margin-left: 25px;
+}
+.king-notice-info.king-notice2 .notice-text h4 {
+  font-size: 13px;
+  color: #444;
+  margin: 0 0 5px 0;
+}
+.king-notice-info.king-notice2 .notice-text p {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 0;
+}
+.king-notice-info.notice-borders {
+  border: 1px solid #d1e5ff;
+}
+
+.king-notice-warning.king-notice2 {
+  background-color: #fef7ee !important;
+  padding: 8px;
+  border-radius: 6px;
+  position: relative;
+}
+.king-notice-warning.king-notice2.king-notice2-large {
+  padding: 15px;
+}
+.king-notice-warning.king-notice2.king-notice2-large i {
+  font-size: 36px;
+}
+.king-notice-warning.king-notice2 i {
+  color: #f4bd6e;
+  position: absolute;
+  top: 50%;
+  margin-top: -9px;
+  font-size: 18px;
+}
+.king-notice-warning.king-notice2 .notice-text {
+  margin-left: 25px;
+}
+.king-notice-warning.king-notice2 .notice-text h4 {
+  font-size: 13px;
+  color: #444;
+  margin: 0 0 5px 0;
+}
+.king-notice-warning.king-notice2 .notice-text p {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 0;
+}
+.king-notice-warning.notice-borders {
+  border: 1px solid #fcebd2;
+}
+
+.king-notice-danger.king-notice2 {
+  background-color: #faeeec !important;
+  padding: 8px;
+  border-radius: 6px;
+  position: relative;
+}
+.king-notice-danger.king-notice2.king-notice2-large {
+  padding: 15px;
+}
+.king-notice-danger.king-notice2.king-notice2-large i {
+  font-size: 36px;
+}
+.king-notice-danger.king-notice2 i {
+  color: #d6776a;
+  position: absolute;
+  top: 50%;
+  margin-top: -9px;
+  font-size: 18px;
+}
+.king-notice-danger.king-notice2 .notice-text {
+  margin-left: 25px;
+}
+.king-notice-danger.king-notice2 .notice-text h4 {
+  font-size: 13px;
+  color: #444;
+  margin: 0 0 5px 0;
+}
+.king-notice-danger.king-notice2 .notice-text p {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 0;
+}
+.king-notice-danger.notice-borders {
+  border: 1px solid #f2d3cf;
+}

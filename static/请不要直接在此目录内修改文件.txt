@@ -1,0 +1,9 @@
+﻿请移步到 gcloud 目录下修改
+
+公共文件：gcloud/core/static
+
+任务模版：gcloud/tasktmp/static
+
+任务流程：gcloud/taskflow/static
+
+任务原子：gcloud/gtags/static

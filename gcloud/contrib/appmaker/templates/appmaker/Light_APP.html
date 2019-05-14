@@ -1,0 +1,191 @@
+<%inherit file="/temp/base.html"/>
+<%block name='head'>
+${parent.head()}
+    <!-- 滚动条样式 -->
+    <link href="${STATIC_URL}css/other.css?v=${STATIC_VERSION}" rel="stylesheet" type="text/css">
+    <link href="${REMOTE_STATIC_URL}v3/assets/artDialog-6.0.4/css/ui-dialog.css" rel="stylesheet">
+    <link rel="stylesheet" href="${STATIC_URL}appmaker/css/Light_APP.css?v=${STATIC_VERSION}">
+</%block>
+
+<%block name='content'>
+<section id="light-list">
+    <div class="standardCon shou standardCon_backgroud">
+        <div class="light_w">
+            <div class="light-img clearfix" >
+
+                <div class="img-w relative-box" v-cloak v-for="list in ListData">
+                    <a href="#" @click="go_to_app(list.code, list.link)"><img v-bind:src="list.logo_url" onerror="javascript:this.src='${STATIC_URL}images/light_01.png?v=${STATIC_VERSION}';"></a>
+                    %if is_maintainer:
+                    <i class="fa fa-pencil pencil" @click.stop="edit_delete_pencil(list.id)"></i>
+                    <i id="delete-i" class="fa fa-close delete-i" @click="edit_delete_icon(list.id)"></i>
+                    %endif
+                    <p>{{ list.name }}</p>
+                </div>
+                %if is_maintainer:
+                <div class="app-maker-guide img-w relative-box add_Box" @click.stop="add_box" >
+                    <div class="addBox_light">
+                        <i class="fa fa-plus"></i>
+                    </div>
+                </div>
+                %else:
+                    <div class="app-maker-guide relative-box add_Box hide" v-bind:class="{ 'hide': isHide }" >
+                        <div class="addBox_light">
+                            <h4 class="no-app-info" >${_(u'暂无相关轻应用，请联系您公司的运维人员添加')}</h4>
+                        </div>
+                    </div>
+                %endif
+            </div>
+
+
+            </div>
+        <!-- 新增轻应用弹出层-->
+        <div class="pop-elastic-box" v-cloak v-show="is_add">
+            <div class="pop-box">
+                <div class="pop_section delete_button">
+                    <div class="king-block king-block-bordered">
+                        <div class="king-block-header king-p ui-dialog-header">
+                            <ul class="king-block-options">
+                                <li>
+                                    <button i="close" class="ui-dialog-close" title="Cancel"  @click="close">×</button>
+                                </li>
+                            </ul>
+                            <h3 id="add_edit" class="add_text">${_(u'新增轻应用')}</h3>
+                        </div>
+                        <div class="king-top">
+                            <!-- 水平布局表单-1 Start -->
+                            <div class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-3 control-label">${_(u'流程模板')}</label>
+                                    <div class="col-sm-7" >
+                                        <!-- select2 通过javascript start -->
+                                        <input type="hidden" id="e4" class="select2_box" style="width:100%;">
+                                    </div>
+                                    <span class="mt5 fl name_n">${_(u'请先选择流程模板')}</span>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="username" class="col-sm-3 control-label">${_(u'轻应用名称')}</label>
+                                    <div class="col-sm-7">
+                                        <input type="text" class="form-control"  v-model="u_name" id="username" placeholder="${_(u'名称不能超过20个字符！')}" value="" onkeyup="value=value.replace(/[<>~!@#$^&*￥]/g,'')"/>
+                                    </div>
+                                    <span class=" mt5 fl name_text" style="display: inline;" v-if="notName">${_(u'名称不能为空')}</span>
+                                    <span class=" mt5 fl name_20" style="display: inline;" v-if="moreUserName">${_(u'名称不能超过20个字符')}</span>
+                                    <span class=" mt5 fl name_rp" style="display: inline;" v-if="hasName">${_(u'名称已经存在，请重命名')}</span>
+
+                                </div>
+                                <div class="form-group">
+                                    <label for="introduction" class="col-sm-3 control-label" >${_(u'轻应用简介')}</label>
+                                    <div class="col-sm-7">
+                                        <textarea class="form-control resize_dl" rows="3" id="introduction"  placeholder="${_(u'请描述该应用的功能')}" @keyup="introduction_key_up($event)"></textarea>
+                                    </div>
+                                </div>
+                                <iframe name="iframePostForm" onload="on_load(this);" style="display:none;"></iframe>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3">LOGO</label>
+                                    <div id="div_m_logo" class="col-sm-7 file-box">
+                                        <form method='post' name='form_logo' target="iframePostForm" action='${APP_MAKER_MODIFY_LOGO_URL}' enctype="multipart/form-data">
+                                            <input type='hidden' name='app_maker_code' />
+                                            <input type='hidden' name='operator' />
+                                            <input type='hidden' name='${user_uin}' />
+                                            <input type='hidden' name='${user_key}' />
+                                            <input type='file' name='logo' class="filestyle" title="${_(u'选填，上传图片必须后缀名为png，建议大小为100px*100px')}" accept="image/png" data-buttonText="${_(u'选择文件')}" data-size="sm" />
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-7 col-sm-offset-3 col-top-20">
+                                        <input type="button" class="king-btn king-success mr10" @click.prevent="save_people_data($event)" value="${_(u'确定')}" ondblclick="return">
+                                        <input type="reset" class="king-btn king-default" @click.prevent="quxiao" value="${_(u'取消')}">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 水平布局表单-1 End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--     新增轻应用弹层结束-->
+        <!-- 修改增轻应用弹出层-->
+        <div class="pop-elastic-box" v-cloak v-show="is_xiu">
+        <div class="pop-box">
+            <div class="pop_section delete_button">
+                <div class="king-block king-block-bordered">
+                    <div class="king-block-header king-p ">
+                        <ul class="king-block-options">
+                            <li>
+                                <button type="button"><i class="fa fa-close" @click="close"></i></button>
+
+                            </li>
+                        </ul>
+                        <h3 id="add_edit_modify" class="add_text">${_(u'修改轻应用')}</h3>
+                    </div>
+                    <div class="king-top">
+                        <!-- 水平布局表单-1 Start -->
+                        <div class="form-horizontal" method="POST">
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-3 control-label">${_(u'流程模板')}</label>
+                                <div class="col-sm-7" >
+                                    <!-- select2 通过javascript start -->
+                                    <input value="" type="text" id="e10" name="" v-model="template_name" class="select2_box" disabled="disabled" style="width:100%;">
+                                    <!-- select2 通过javascript end -->
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="username" class="col-sm-3 control-label">${_(u'轻应用名称')}</label>
+                                <div class="col-sm-7">
+                                    <input type="text" class="form-control"  v-model="name_data" id="username_modify" placeholder="名称不能超过20个字符！" value="" onkeyup="value=value.replace(/[<>~!@#$^&*￥]/g,'')"/>
+                                </div>
+                                <div class=" mt5 fl name_text" v-if="change_not_name" style="display: inline;">${_(u'名称不能为空')}</div>
+                                <div class=" mt5 fl name_20" v-if="change_more_name" style="display: inline;">${_(u'名称不能超过20个字符')}</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="introduction" class="col-sm-3 control-label" >${_(u'轻应用简介')}</label>
+                                <div class="col-sm-7">
+                                    <textarea class="form-control resize_dl" rows="3" id="introduction_modify"  placeholder="${_(u'请描述该应用的功能')}" @keyup="introduction_key_up($event)">{{desc_data}}</textarea>
+                                </div>
+                            </div>
+                            <iframe name="iframePostForm_edit" onload="on_load(this);" style="display:none;"></iframe>
+                            <div class="form-group">
+                                <label class="control-label col-sm-3">LOGO</label>
+                                <div id="div_m_logo_edit" class="col-sm-7 file-box">
+                                    <form method='post' name='form_logo' target="iframePostForm_edit" action='${APP_MAKER_MODIFY_LOGO_URL}' enctype="multipart/form-data">
+                                        <input type='hidden' name='app_maker_code' />
+                                        <input type='hidden' name='operator' />
+                                        <input type='hidden' name='${user_uin}' />
+                                        <input type='hidden' name='${user_key}' />
+                                        <input type='file' name='logo' class="filestyle" title="${_(u'选填，上传图片必须后缀名为png，建议大小为100px*100px')}" accept="image/png" data-buttonText="${_(u'选择文件')}" data-size="sm" />
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-7 col-sm-offset-3 col-top-20 col-left">
+                                    <input type="button" class="king-btn king-success mr10" @click="save_people_data_xiu($event)" value="${_(u'确定')}" ondblclick="return">
+                                    <input type="reset" class="king-btn king-default" @click="quxiao_xiu" value="${_(u'取消')}">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 水平布局表单-1 End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <!--修改轻应用弹层结束-->
+    </div>
+</section>
+</%block>
+<!-- 滚动条插件 -->
+<script src="${REMOTE_STATIC_URL}v3/assets/artDialog-6.0.4/dist/dialog-min.js"></script>
+<script src="${STATIC_URL}assets/vue.js?v=${STATIC_VERSION}"></script>
+<!--平台接口js 用于打开新的app-->
+<script src="${REMOTE_API_URL}" type="text/javascript"></script>
+<script src="${STATIC_URL}appmaker/js/light_application.js?v=${STATIC_VERSION}"></script>
+<!-- filestyle -->
+<script type="text/javascript" src="${STATIC_URL}appmaker/js/bootstrap-filestyle.min.js?v=${STATIC_VERSION}"> </script>
+<script>
+    var USER_UIN = "${user_uin}";
+    var USER_KEY = "${user_key}";
+</script>
