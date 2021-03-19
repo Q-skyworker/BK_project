@@ -29,7 +29,7 @@ django-debug-toolbar==1.6
 django-debug-panel==0.8.3
 
 # django rest framework
-djangorestframework==3.3.3
+djangorestframework==3.11.2
 
 # pipeline
 ujson==1.35
