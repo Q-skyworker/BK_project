@@ -21,7 +21,7 @@ django-tastypie==0.13.3
 setuptools_scm==1.11.1
 django-guardian==1.4.8
 django-haystack==2.4.1
-rsa==3.4.2
+rsa==4.1
 json2html==1.0.1
 markdown==2.6.7
 
