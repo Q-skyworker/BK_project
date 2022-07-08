@@ -10,7 +10,7 @@ httplib2==0.9.1
 Mako==1.0.4
 MarkupSafe==0.23
 pytz==2016.6.1
-suds==0.4
+suds==1.0.0
 urllib3==1.16
 #cx-oracle==5.3
 pyvmomi==6.7.1
